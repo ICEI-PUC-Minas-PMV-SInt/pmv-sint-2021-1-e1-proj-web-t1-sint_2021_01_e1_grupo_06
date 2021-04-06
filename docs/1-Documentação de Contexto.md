@@ -31,6 +31,8 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+> 
+## Estado da Arte
 
 ## Público-Alvo
 
