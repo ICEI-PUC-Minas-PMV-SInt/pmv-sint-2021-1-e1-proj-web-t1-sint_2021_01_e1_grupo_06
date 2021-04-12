@@ -8,9 +8,6 @@ Ainda que seja tímida a circulação de carros elétricos no Brasil é importan
 Frente a isto surge a necessidade do desenvolvimento de dispositivos que calculem os preços do carregamento das baterias de VEss, na perspectiva de contribuir com os gestores de eletropostos e consumidores finais. 
 
 
-
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
-
 ## Problema
 
 Criar ferramenta que calcule o preço do carregamento de baterias de lítio dos Veículos Elétricos (VE) no Brasil para gestores de eletropostos. 
