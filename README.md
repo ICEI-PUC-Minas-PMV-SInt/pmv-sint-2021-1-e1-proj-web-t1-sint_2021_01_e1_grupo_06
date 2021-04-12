@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# TÍTULO DO PROJETO - Aplicação Web para geração de preços de recarga de veículos elétricos (VE).  
 
 `CURSO` Tecnologia em Sistemas para Internet.
 
