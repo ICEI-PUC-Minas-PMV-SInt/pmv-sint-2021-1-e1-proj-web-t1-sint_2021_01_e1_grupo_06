@@ -23,9 +23,8 @@ Desenvolver aplicação web para geração de preços do carregamento de bateria
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Na atualidade, a principal fonte de energia dos automóveis são os combustíveis fósseis, onde estes são um dos principais geradores de gás carbônico. Portanto, existe um grande iniciativa no mundo onde os automóveis passem a utilizar a eletricidade como fonte de energia, e assim diminuir a sua produção de gás carbônico.
+Acreditamos que o Brasil em breve terá uma grande demanda de serviços relacionados em eletropostos, devido as grandes pressões internacionais para a diminuição dos gases carbônicos em todo mundo. Pensando nessa mudança e de como esses serviços de eletroposto irão fazer sua gestão, iremos desenvolver um gerador web de preço para eletroposoto.
 
 ## Estado da Arte
 
