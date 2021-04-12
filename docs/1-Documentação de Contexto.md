@@ -33,4 +33,4 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 ## Estado da Arte
 
 ## Público-Alvo
-Gestores de empresas fornecedoras de recargas elétricas em eletropostos no Brasil 
+Gestores de empresas fornecedoras de recargas elétricas em eletropostos no Brasil. 
