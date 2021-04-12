@@ -12,7 +12,7 @@ Frente a isto surge a necessidade do desenvolvimento de dispositivos que calcule
 
 Criar ferramenta que calcule o preço do carregamento de baterias de lítio dos Veículos Elétricos (VE) no Brasil para gestores de eletropostos. 
 
-## Objetivos
+## Objetivo Geral
 
 Desenvolver aplicação web para geração de preços do carregamento de baterias de lítio de veículos elétricos em eletropostos no Brasil. 
  
