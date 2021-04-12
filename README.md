@@ -1,19 +1,21 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`CURSO` Tecnologia em Sistemas para Internet.
 
-`DISCIPLINA`
+`DISCIPLINA` Projetos - Aplicação Web
 
-`SEMESTRE`
+`SEMESTRE` 1/2021
 
 ## Integrantes
 
-- Obi-Wan Kenobi 
-- Anakin Skywalker
+Clauzioney Francisco dos Santos;
+Dione Pereira Santos;
+Iara Camargo de Oliveira;
+Lucas Eugêncio Silva.
 
 ## Professor
 
-- Mestre Yoda
+Fabiano Costa Teixeira
 
 # Documentação
 
