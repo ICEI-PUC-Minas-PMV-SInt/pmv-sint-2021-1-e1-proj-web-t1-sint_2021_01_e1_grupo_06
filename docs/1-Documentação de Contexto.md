@@ -1,5 +1,14 @@
 # Introdução
 
+No Brasil a primeira instalação de posto de abastecimento elétrico foi no Rio de Janeiro em 2009, através de parceria entre Nissan e Petrobras (Estadão, 2009). No estado de São Paulo a primeira instalação ocorreu no ano de 2012, no Instituto de Eletrotécnica e Energia (IEE) da Unversidade de São Paulo (USP). (Feldmann, 2013).
+
+Segundo a EPD Smart, atualmene existe 50 pontos de carregamento ativos no páis, a startup estima que até o final de 2022 irá triplicar os pontos de carregamento.
+Ainda que seja tímida a circulação de carros elétricos no Brasil é importante que políticas públicas sejam adotadas para estimular à aquisição de carros elétricos e mitigar os danos ao meio ambiente. Um dos fatores que ainda corroboram para baixa adesão de usuários a carros elétricos são a falta de infraestrutura e os preços elevados dos veículos. Há também pouca informação e ferramentas de aplicação web que auxiliem os gestores de eletropostos no cálculo de preços de recargas das baterias de lítio.
+
+Frente a isto surge a necessidade do desenvolvimento de dispositivos que calculem os preços do carregamento das baterias de VEss, na perspectiva de contribuir com os gestores de eletropostos e consumidores finais. 
+
+
+
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
