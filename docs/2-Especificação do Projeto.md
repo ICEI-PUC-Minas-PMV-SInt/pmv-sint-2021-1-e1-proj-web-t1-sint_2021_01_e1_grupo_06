@@ -8,7 +8,16 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-![Imagem doo Github](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_06/blob/main/docs/img/github.png)
+<table>
+ <tr>
+  <td>
+    <img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_06/blob/main/docs/img/github.png">
+  </td>
+  <td>Nome da pessoa...</td>
+  <td>Descrição....</td>
+ </tr>
+</table>
+
 
 Persona          |  Sobre
 -----------------|-------------------------------------------------------------------------------------------------------------------------
