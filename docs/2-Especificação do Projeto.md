@@ -13,13 +13,10 @@ Persona          |  Sobre
 Alberto Silva    | Empreendedor no ramo de postos combustíveis, 55 anos. Gosta de Gastronomia, Economia e seu sítio. Sua frustração é: Não ter realizado seu grande sonho de empreender. 
 Persona          |  Sobre
 -----------------|--------
- ![image](https://user-images.githubusercontent.com/81270147/114616100-db0ef380-9c7c-11eb-885a-dbdeef8c348b.png)
- 
-Rodolfo Astuto - Empreendedor de concessionária de veículos de luxo,  37 anos. Gosta de viajar, ler bons livros e cultivar bons amigos, rede social                    | utiliza: Linkedin, Instagram, Facebook. Motivações: empreender, desafios no ramo empresarial, inovação. Frustações: Pandemia (Covid-19).
-                  
-                     
+         
 
-Exemplo 2        | sobre 2
+ ![image](https://user-images.githubusercontent.com/81270147/114616100-db0ef380-9c7c-11eb-885a-dbdeef8c348b.png)       | Rodolfo Astuto - Empreendedor de concessionária de veículos de luxo,  37 anos. Gosta de viajar, ler bons livros e cultivar bons amigos, rede social                   utiliza: Linkedin, Instagram, Facebook. Motivações: empreender, desafios no ramo empresarial, inovação. Frustações: Pandemia (Covid-19).
+                  
 Exemplo 3        | sobre 3
 Exemplo 4        | sobre 4
 
