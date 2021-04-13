@@ -8,7 +8,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Persona          |  Sobre
+-----------------|--------
+Alberto Silva    | Empreendedor no ramo de postos combustíveis, 55 anos. Gosta de Gastronomia, Economia e seu sítio. Sua frustração é: Não ter realizado seu grande sonho de empreender. 
+Exemplo 2        | sobre 2
+Exemplo 3        | sobre 3
+Exemplo 4        | sobre 4
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
