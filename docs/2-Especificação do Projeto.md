@@ -8,6 +8,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
+![Imagem doo Github](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_06/blob/main/docs/img/github.png)
+
 Persona          |  Sobre
 -----------------|-------------------------------------------------------------------------------------------------------------------------
 Alberto Silva    | Empreendedor no ramo de postos combustíveis, 55 anos. Gosta de Gastronomia, Economia e seu sítio. Sua frustração é: Não ter realizado seu                          grande sonho de empreender. 
