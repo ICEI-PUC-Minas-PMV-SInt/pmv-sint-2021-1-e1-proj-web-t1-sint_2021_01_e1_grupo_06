@@ -35,15 +35,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
   <td>.....</td>
  </tr>
  <tr>
-  <th>Foto</th>
-  <th>Nome</th>
-  <th>Descrição</th>
-  <th>Aplicativos</th>
-  <th>Motivações</th>
-  <th>Frustrações</th>
-  <th>Hobbies, História</th>
- </tr>
- <tr>
   <td>
     <img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_06/blob/main/docs/img/github.png">
   </td>
