@@ -10,7 +10,7 @@ Frente a isto surge a necessidade do desenvolvimento de dispositivos que calcule
 
 ## Problema
 
-Criar ferramenta que calcule o preço do carregamento de baterias de lítio dos Veículos Elétricos (VE) no Brasil para gestores de eletropostos. 
+Com a falta de informação do órgão regulamentador e legislação específica que subsidie parâmetros para melhor calcular o preço do carregamento de baterias de lítio dos Veículos Elétricos (VE) no Brasil é necessária a criação de uma ferramenta que auxilie os gestores de eletropostos. 
 
 ## Objetivo Geral
 
