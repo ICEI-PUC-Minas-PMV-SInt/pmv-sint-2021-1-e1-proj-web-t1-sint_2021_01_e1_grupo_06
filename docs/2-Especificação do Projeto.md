@@ -11,8 +11,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 Persona          |  Sobre
 -----------------|--------
 Alberto Silva    | Empreendedor no ramo de postos combustíveis, 55 anos. Gosta de Gastronomia, Economia e seu sítio. Sua frustração é: Não ter realizado seu grande sonho de empreender. 
-Persona          |  Sobre
------------------|--------
+
 Rodolfo Astuto   |  Empreendedor de concessionária de veículos de luxo,  37 anos. Gosta de viajar, ler bons livros e cultivar bons amigos, rede social                   utiliza: Linkedin, Instagram, Facebook. Motivações: empreender, desafios no ramo empresarial, inovação. Frustações: Pandemia (Covid-19).
 
 Exemplo 3        | sobre 3
