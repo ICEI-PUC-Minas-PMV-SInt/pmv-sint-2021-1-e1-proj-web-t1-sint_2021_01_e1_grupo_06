@@ -20,7 +20,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
  </tr>
  <tr>
   <td>
-    <img width="100px" height="100px" src="![image](https://user-images.githubusercontent.com/81270147/115029277-35d26600-9e9c-11eb-9fee-a0cf810e7c21.png)
+    <img width="100px" height="100px" src="https://img.freepik.com/fotos-gratis/empresario-alegre-sorrindo_74855-1511.jpg?size=626&ext=jpg
 ">
   </td>
   <td>Rodolfo Astuto</td>
@@ -34,7 +34,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
   </td>
   <td> ser desafiado, ama empreender, gosta de inovar </td>
   <td> Perdeu uma agência com a pandemia</td>
-  <td> Viagens, economia, ler bons libros</td>
+  <td> Viagens, economia, ler bons livros</td>
  </tr>
  <tr>
   <td>
