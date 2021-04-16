@@ -32,9 +32,9 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
      <li>Linkedin</li>
    </ul>
   </td>
-  <td>Desafios</td>
-  <td>Empreender</td>
-  <td>Inovação</td>
+  <td> ser desafiado, ama empreender, gosta de inovar </td>
+  <td> Perdeu uma agência com a pandemia</td>
+  <td> Viagens, economia, ler bons libros</td>
  </tr>
  <tr>
   <td>
