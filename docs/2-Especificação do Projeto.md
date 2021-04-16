@@ -20,8 +20,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
  </tr>
  <tr>
   <td>
-    <img width="100px" height="100px" src="https://img.freepik.com/fotos-gratis/empresario-alegre-sorrindo_74855-1511.jpg?size=626&ext=jpg
-">
+    <img width="100px" height="100px" src="![image](https://user-images.githubusercontent.com/81270147/115031646-c90c9b00-9e9e-11eb-8eb3-a72c7f137373.png)">
   </td>
   <td>Rodolfo Astuto</td>
   <td>37 anos, empreendedor de concessionária de veículos de luxo.  </td>
