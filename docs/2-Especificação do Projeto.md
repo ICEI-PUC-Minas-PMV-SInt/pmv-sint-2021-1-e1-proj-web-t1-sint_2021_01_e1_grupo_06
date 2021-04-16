@@ -39,17 +39,18 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
   <td>
     <img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_06/blob/main/docs/img/github.png">
   </td>
-  <td>Nome da pessoa...</td>
-  <td>Descrição....</td>
+  <td>Sabrina Torres</td>
+  <td>44 anos, gestora de posto de gasolina em shopping center </td>
   <td>
     <ul>
      <li>Facebook</li>
      <li>Instagram</li>
+     <li>Linkedin</li>
    </ul>
   </td>
-  <td>.....</td>
-  <td>.....</td>
-  <td>.....</td>
+  <td>Sempre ser uma funcionária dedicada e ajudar na inovação do local de trabalho </td>
+  <td>A falta de diversidade no local de trabalho  </td>
+  <td>Carros, tecnologia e política </td>
  </tr>
 
 </table>
