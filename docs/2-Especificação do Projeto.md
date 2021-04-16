@@ -20,7 +20,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
  </tr>
  <tr>
   <td>
-    <img width="100px" height="100px" src="https://tiinside.com.br/wp-content/uploads/2013/06/MDA-3x4-Large-e1372340590598.jpg">
+    <img width="110px" height="110px" src="https://tiinside.com.br/wp-content/uploads/2013/06/MDA-3x4-Large-e1372340590598.jpg">
   </td>
   <td>Rodolfo Astuto</td>
   <td>37 anos, empreendedor de concessionária de veículos de luxo.  </td>
