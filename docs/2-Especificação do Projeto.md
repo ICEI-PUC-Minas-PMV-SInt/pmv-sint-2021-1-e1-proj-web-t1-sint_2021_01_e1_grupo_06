@@ -23,8 +23,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
     <img width="100px" height="100px" src="![image](https://user-images.githubusercontent.com/81270147/115029277-35d26600-9e9c-11eb-9fee-a0cf810e7c21.png)
 ">
   </td>
-  <td>Nome da pessoa Rodolfo Astuto</td>
-  <td>Descrição 37 anos, empreendedor de concessionária de veículos de luxo.  </td>
+  <td>Rodolfo Astuto</td>
+  <td>37 anos, empreendedor de concessionária de veículos de luxo.  </td>
   <td>
     <ul>
      <li>Facebook</li>
@@ -32,9 +32,9 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
      <li>Linkedin</li>
    </ul>
   </td>
-  <td>.....</td>
-  <td>.....</td>
-  <td>.....</td>
+  <td>Desafios</td>
+  <td>Empreender</td>
+  <td>Inovação</td>
  </tr>
  <tr>
   <td>
