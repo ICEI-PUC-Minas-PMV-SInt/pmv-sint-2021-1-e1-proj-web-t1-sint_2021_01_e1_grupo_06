@@ -20,14 +20,16 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
  </tr>
  <tr>
   <td>
-    <img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_06/blob/main/docs/img/github.png">
+    <img width="100px" height="100px" src="![image](https://user-images.githubusercontent.com/81270147/115029277-35d26600-9e9c-11eb-9fee-a0cf810e7c21.png)
+">
   </td>
-  <td>Nome da pessoa...</td>
-  <td>Descrição....</td>
+  <td>Nome da pessoa Rodolfo Astuto</td>
+  <td>Descrição 37 anos, empreendedor de concessionária de veículos de luxo.  </td>
   <td>
     <ul>
      <li>Facebook</li>
      <li>Instagram</li>
+     <li>Linkedin</li>
    </ul>
   </td>
   <td>.....</td>
