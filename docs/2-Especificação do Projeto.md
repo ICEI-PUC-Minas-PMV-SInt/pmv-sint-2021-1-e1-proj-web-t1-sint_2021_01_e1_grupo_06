@@ -52,6 +52,23 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
   <td>A falta de diversidade no local de trabalho  </td>
   <td>Carros, tecnologia e política </td>
  </tr>
+ </tr>
+ <tr>
+  <td>
+    <img width="100px" height="100px" src="https://storage.alboom.ninja/sites/2851/albuns/427514/2019.04.03_-_Fotos_Perfil_Profissional_Carlo__58_de_68_.jpg?t=1556218044">
+     </td>
+  <td>Alberto Silva</td>
+  <td>55 anos, empreendedor no ramo de postos combustíveis </td>
+  <td>
+    <ul>
+     <li>Facebook</li>
+     <li>Instagram</li>
+     <li>Linkedin</li>
+   </ul>
+  </td>
+  <td> ... </td>
+  <td> Não ter realizado seu grande sonho de empreender </td>
+  <td> Gastronomia, Economia e seu sítio.</td>
 
 </table>
 
