@@ -56,25 +56,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 </table>
 
 
-Persona          |  Sobre
------------------|-------------------------------------------------------------------------------------------------------------------------
-Alberto Silva    | Empreendedor no ramo de postos combustíveis, 55 anos. Gosta de Gastronomia, Economia e seu sítio. Sua frustração é: Não ter realizado seu                          grande sonho de empreender. 
-Rodolfo Astuto   |  Empreendedor de concessionária de veículos de luxo,  37 anos. Gosta de viajar, ler bons livros e cultivar bons amigos, rede social                                 utiliza: Linkedin, Instagram, Facebook. Motivações: empreender, desafios no ramo empresarial, inovação. Frustações: Pandemia (Covid-19).
-Sabrina Torres   | Gestora de posto de gasolina em shopping center, 44 anos. Gosta de carros, tecnologia e política. Frustações: A falta de diversidade local de trabalho. 
-Exemplo 4        | sobre 4
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
