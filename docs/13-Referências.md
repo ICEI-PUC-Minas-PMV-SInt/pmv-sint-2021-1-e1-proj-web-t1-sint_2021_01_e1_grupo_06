@@ -2,6 +2,8 @@
 
 CANALENERGIA.com.br/ NEGÓCIOS E EMPRESAS/ P&D TECNOLOGIA Disponível em: https://www.canalenergia.com.br/noticias/53158930/edp-smart-lanca-aplicativo-para-localizacao-de-eletropostos. Acesso em: 10 abr. 2021. 
 
+Daniela Saragioto. Infraestrutura para carros elétricos e híbridos cresce no País: Instalação de eletropostos nas cidades e nas estradas tem como objetivo aumentar a confiança de quem pretende comprar um veículo elétrico. Estadão. Mobilidade.
+
 DO NASCIMENTO MARTINS, Claudia. Infraestrutura de recarga de bateria e subsídios e incentivos fiscais: condições chave para a difusão do carro elétrico. Disponível em: https://inctpped.ie.ufrj.br/desenvolvimentoemdebate/pdf/dd_v_4_1_Claudia-Martins.pdf. Acesso em: 12 abr. 2021
 
 FRANCESCATTO, Matheus Binotto. Viabilidade técnica e econômica no uso de estações de recarga de veículos elétricos. 2019. Disponível em: https://repositorio.ufsm.br/handle/1/18213. Acesso em: 12 abr. 2021
