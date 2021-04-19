@@ -66,7 +66,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
      <li>Linkedin</li>
    </ul>
   </td>
-  <td> ... </td>
+  <td> Expandir e inovar sua empresa  </td>
   <td> Não ter realizado seu grande sonho de empreender </td>
   <td> Gastronomia, Economia e seu sítio.</td>
 
