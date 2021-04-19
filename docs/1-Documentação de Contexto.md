@@ -36,6 +36,8 @@ Nota-se carência na localização de bibliografias que auxiliem no cálculo de 
 ![image](https://user-images.githubusercontent.com/81270147/115028831-b349a680-9e9b-11eb-89b2-eb434c45d37b.png)
 ![image](https://user-images.githubusercontent.com/81270147/115028853-b80e5a80-9e9b-11eb-9426-51dc331877cf.png)
 ![image](https://user-images.githubusercontent.com/81270147/115028864-bba1e180-9e9b-11eb-8d4d-ef27ab64188a.png)
+![image](https://user-images.githubusercontent.com/81269914/115311268-c1225480-a145-11eb-979b-6300c2c9ac50.png)
+
 
 ## Público-Alvo
 Gestores de empresas fornecedoras de recargas elétricas em eletropostos no Brasil. 
