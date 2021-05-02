@@ -99,19 +99,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Cadastro da empresa e login no sistema | ALTA | 
-|RF-002| Cadastro do usuario e login, verificar autorização na RF-001 | MÉDIA ||
-|RF-003| O sistema deve ter entrada de dados dos custos fixos e variaves | ALTA |
-|RF-004| Emissão de notificação na mudança nos custos variaveis e fixos a todos os cadastrados na RF-003 | ALTA |
-|RF-005| Gerar preços do kw/h a cada 6 horas | ALTA |
-|RF-006| Alterar os preços automaticamente se á empresa optar  | MÉDIA |
-|RF-007| Enviar notificações quando houver alterções de preço para todos os cadastrados pela da empresa. (Obs: Cliente podem ser cadastrados) | ALTA |
-|RF-008| Gera informaçoes conforme RF-003 E RF-005 | MÉDIA |
-|RF-009| Tela com boas praticá e informações de gestão | MÉDIA |
-|RF-010| Tela sobre normas de eletropostos | MÉDIA |
-|RF-011| Tela sobre Manuntenção preventiva e corretiva dos equipamentos | MÉDIA |
-|RF-012| Notificações sobre  RF-012 E RF013  | MÉDIA |
-|RF-013| tela de ajuda, dúvida e sugestão dos usuários | MÉDIA |
+|RF-001 | Cadastro da empresa e login no sistema | ALTA | 
+|RF-002 | Cadastro do usuario e login, verificar autorização na RF-001 | MÉDIA ||
+|RF-003 | O sistema deve ter entrada de dados dos custos fixos e variaves | ALTA |
+|RF-004 | Emissão de notificação na mudança nos custos variaveis e fixos a todos os cadastrados na RF-003 | ALTA |
+|RF-005 | Gerar preços do kw/h a cada 6 horas | ALTA |
+|RF-006 | Alterar os preços automaticamente se á empresa optar  | MÉDIA |
+|RF-007 | Enviar notificações quando houver alterções de preço para todos os cadastrados pela da empresa. (Obs: Cliente podem ser cadastrados) | ALTA |
+|RF-008 | Gera informaçoes conforme RF-003 E RF-005 | MÉDIA |
+|RF-009 | Tela com boas praticá e informações de gestão | MÉDIA |
+|RF-010 | Tela sobre normas de eletropostos | MÉDIA |
+|RF-011 | Tela sobre Manuntenção preventiva e corretiva dos equipamentos | MÉDIA |
+|RF-012 | Notificações sobre  RF-012 E RF013  | MÉDIA |
+|RF-013 | tela de ajuda, dúvida e sugestão dos usuários | MÉDIA |
 
 ### Requisitos não Funcionais
 
