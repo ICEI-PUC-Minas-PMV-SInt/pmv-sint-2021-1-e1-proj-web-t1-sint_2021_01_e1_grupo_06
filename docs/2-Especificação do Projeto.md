@@ -99,8 +99,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Cadastro do usuario do sistema | ALTA | 
+|RF-002| login do usuario | ALTA |
+|RF-003| Cadastro do empresa | MÉDIA |
+|RF-003| Verificar se o usuario está cadastrado na prestação do serviço da RF-003 no momento da RF-OO1 | Alta |
+|RF-004| Verificar á autorização do usuario a prestação de serviço no mmomento RF-002 | MÉDIA |
+|RF-005| O sistema deve ter entrada de dados dos custos fixos e variaves | ALTA |
+|RF-006| Emissão de notificação na mudança nos custos variaveis e fixos a todos os cadastrados na RF-003 | ALTA |
+|RF-007| Gerar preços do kw/h a cada 6 horas | ALTA |
+|RF-008| Alterar os preços automaticamente se á empresa optar  | MÉDIA |
+|RF-009| Enviar notificações quando houver alterções de preço para todos os cadastrados pela da empresa. (Obs: Cliente podem ser cadastrados)   | ALTA |
+|RF-010| Gera informaçoes conforme RF-005 E RF-007 | MÉDIA |
+|RF-011| Tela com boas praticá e informações de gestão | MÉDIA |
+|RF-012| Tela sobre normas da prestação e fgetão do serviço | MÉDIA |
+|RF-013| Tela sobre Manuntenção preventiva e corretiva dos equipamentos | MÉDIA |
+
+
+
+
+
+
 
 
 ### Requisitos não Funcionais
