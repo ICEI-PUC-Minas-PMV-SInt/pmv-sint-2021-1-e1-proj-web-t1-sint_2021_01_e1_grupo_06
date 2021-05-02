@@ -99,9 +99,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Cadastro do usuario do sistema | ALTA | 
-|RF-002| login do usuario | ALTA |
-|RF-003| Cadastro do empresa | MÉDIA |
+|RF-001| Cadastro da empresa no sistema | ALTA | 
+|RF-002| login da empresa | ALTA |
+|RF-003| Cadastro do usuario e login conforme permissão da RF-001 | MÉDIA |
 |RF-003| Verificar se o usuario está cadastrado na prestação do serviço da RF-003 no momento da RF-OO1 | Alta |
 |RF-004| Verificar á autorização do usuario a prestação de serviço no mmomento RF-002 | MÉDIA |
 |RF-005| O sistema deve ter entrada de dados dos custos fixos e variaves | ALTA |
@@ -111,8 +111,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-009| Enviar notificações quando houver alterções de preço para todos os cadastrados pela da empresa. (Obs: Cliente podem ser cadastrados)   | ALTA |
 |RF-010| Gera informaçoes conforme RF-005 E RF-007 | MÉDIA |
 |RF-011| Tela com boas praticá e informações de gestão | MÉDIA |
-|RF-012| Tela sobre normas da prestação e fgetão do serviço | MÉDIA |
+|RF-012| Tela sobre normas que abrange a presação deste serviço | MÉDIA |
 |RF-013| Tela sobre Manuntenção preventiva e corretiva dos equipamentos | MÉDIA |
+|RF-002| Notificações sobre  RF-012 E RF013  | MÉDIA |
+
+|RF-013| tela de ajuda e dúvida dos usuários | MÉDIA |
 
 
 
