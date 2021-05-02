@@ -126,7 +126,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| O sistema apresenta dodos ao usuário conforme cadastro RF-001   | MÉDIA |
 |RNF-002| O sistema deve ser de facíl compreensão do usuário | Baixa |
 |RNF-002| O sistema deve ser implementado na linguagem Javascript, css e html  | MÉDIA |
- |RF-013| As notificaçoes e informações devem ser visualizadas conforme cadastro da RF-001 | MÉDIA |
+|RNF-013| As notificaçoes e informações devem ser visualizadas conforme cadastro da RF-001 | MÉDIA |
 
 
 
