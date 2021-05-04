@@ -156,7 +156,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|02| Informações deve ser restringida a alguns usuário conforme cadstro       |
+|02| Informações deve ser restringida a alguns usuários conforme o cadstro       |
 |02| A entrada de dados sera restringida conforme cadastro       |
 
 
