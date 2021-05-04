@@ -126,7 +126,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-002| O sistema deve rodar 24 horas   | MÉDIA |
 |RNF-002| Sempre que for alterado dados, o sistema deve refazer todos os seus calcúlos do sistema | MÉDIA |
-|RNF-002| O sistema apresenta dodos ao usuário conforme cadastro RF-001   | MÉDIA |
+|RNF-002| O sistema apresenta as informações ao usuário conforme cadastro RF-001   | MÉDIA |
 |RNF-002| O sistema deve ser de facíl compreensão do usuário | Baixa |
 |RNF-002| O sistema deve ser implementado na linguagem Javascript, css e html  | MÉDIA |
 |RNF-013| As notificaçoes e informações devem ser visualizadas conforme cadastro da RF-001 | MÉDIA |
@@ -156,6 +156,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|02| Informações deve ser restringida a alguns usuário conforme cadstro       |
+|02| A entrada de dados sera restringida conforme cadastro       |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
