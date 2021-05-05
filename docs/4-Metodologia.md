@@ -4,7 +4,9 @@
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
 O trabalho consisti em revisão de literatura acerca de ferramentas que calculem o preço de recargas para VE. Observou-se que tem poucas publicações que auxiliem na metodologia de geração de preços de recargas elétricas em eletropostos. 
-Fizemos encontros semanais entre a equipe de trabalho através da plataforma TEAMS e DISCORD para discutirmos o andamento e desenvolvimento da aplicação web de interesse do nosso público alvo: gestores de eletropostos. Foi criado alhgumas personas para melhor entendermos o perfil dos nossos clientes, para a partir daí, traçar estratégias de desenvolvimento da aplicação web e enxergar esta aplicação. 
+
+Fizemos encontros semanais entre a equipe de trabalho através da plataforma TEAMS e DISCORD para discutirmos o andamento e desenvolvimento da aplicação web de interesse do nosso público alvo: gestores de eletropostos. Foi criado algumas personas para melhor entendermos o perfil dos nossos clientes, para a partir daí, traçar estratégias de desenvolvimento da aplicação web. 
+
 Fizemos utilização do figma para criação do protótipo, do Github para inserir os dados coletados através do desenvolvimento da proposta em questão e usar os recursos para maior interação entre a equipe do projeto. Como ferramenta de gestão utilizamos o SCRUM, onde criamos o Product backlog, To do,  Doing, Done, que auxiliou de forma significativa  para checarmos o andamento do desenvolvimento da aplicação web e promovermos pequenos sprints de acordo com o problema levantado pelo nosso cliente/professor. O trabalho consiste em etapas até chegarmos no resultado da proposta em execução. 
 
 
