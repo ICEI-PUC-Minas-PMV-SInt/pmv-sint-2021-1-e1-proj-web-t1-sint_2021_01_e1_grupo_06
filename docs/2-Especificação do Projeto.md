@@ -85,14 +85,8 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Sabrina Torres      | Ferramenta para auxiliar na        | Exercer, da melhor forma, minha função |
 |                    | administração                      |                                        |
 |Rodolfo Astuto      |Ferramenta para análise financeira  |Controlar os gastos                     |
-
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Alberto Silva       |Ferramenta para geração de preço em |Avançar com planos de expansão da minha |
+|                    | eletroposto                        | empresa                                |
 
 ## Requisitos
 
