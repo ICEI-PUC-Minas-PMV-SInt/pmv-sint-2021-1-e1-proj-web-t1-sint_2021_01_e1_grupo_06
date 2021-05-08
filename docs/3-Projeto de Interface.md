@@ -21,21 +21,9 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
-![image](https://user-images.githubusercontent.com/81269914/117554094-d21b0300-b02b-11eb-93d8-87bda53f88fd.png) ![image](https://user-images.githubusercontent.com/81269914/117554180-5d949400-b02c-11eb-81b8-552454a8fe82.png)
+![image](https://user-images.githubusercontent.com/81269914/117554880-c847ce80-b030-11eb-94c3-8800684a38c9.png) ![image](https://user-images.githubusercontent.com/81269914/117554912-f9280380-b030-11eb-8539-e9a8531af08d.png) 
+![image](https://user-images.githubusercontent.com/81269914/117554915-080eb600-b031-11eb-9bb3-42851e627490.png) ![image](https://user-images.githubusercontent.com/81269914/117554921-11981e00-b031-11eb-94e8-89548e15e7ac.png)
+![image](https://user-images.githubusercontent.com/81269914/117554925-19f05900-b031-11eb-8f5e-1150dd9f0e2d.png) ![image](https://user-images.githubusercontent.com/81269914/117554931-22e12a80-b031-11eb-872b-133b00747f48.png)
+![image](https://user-images.githubusercontent.com/81269914/117554942-32f90a00-b031-11eb-9603-9d603d87a043.png) ![image](https://user-images.githubusercontent.com/81269914/117554945-3ab8ae80-b031-11eb-97bc-e639a881aa24.png)
 
 
-
-
-
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
