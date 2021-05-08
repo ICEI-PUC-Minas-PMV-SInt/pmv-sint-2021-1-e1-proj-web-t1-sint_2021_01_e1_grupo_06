@@ -103,7 +103,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| Gerar preços do kw/h | ALTA |
 |RF-006| Alterar os preços automaticamente se a empresa optar  | MÉDIA |
 |RF-007| Enviar notificações quando houver alterções de preço para todos os cadastrados pela da empresa. (Obs: Cliente podem ser cadastrados) | ALTA |
-|RF-009| Tela com boa prática e informações de gestão | MÉDIA |
+|RF-008| Tela com boa prática e informações de gestão | MÉDIA |
 
 
 ### Requisitos não Funcionais
