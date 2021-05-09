@@ -1,19 +1,11 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
-
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+A nossa aplicação web será estrutura em HTML, CSS e Java script, onde proporcionará ótimo atendimento as demandas de nossos clientes.
 
 ## Diagrama de componentes
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
-
-Exemplo: 
-
-Os componentes que fazem parte da solução são apresentados na Figura XX.
-
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+![image](https://user-images.githubusercontent.com/81270147/117574129-0c2ee800-b0b2-11eb-8ec3-6552f24f59f5.png)
+Figura 1 - mostra a estruta de organização entre aplicação e cliente que farão uso da aplicação. 
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
