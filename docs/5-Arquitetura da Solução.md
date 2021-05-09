@@ -5,7 +5,7 @@ A nossa aplicação web será estruturada em HTML, CSS e Java script, onde propo
 ## Diagrama de componentes
 
 ![image](https://user-images.githubusercontent.com/81270147/117574129-0c2ee800-b0b2-11eb-8ec3-6552f24f59f5.png)
-Figura 1 - mostra a estruta de organização entre aplicação e cliente que farão uso da aplicação. 
+Figura 1 -  Organização hierárquica de como a aplicação web será desenvolvida.  
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
