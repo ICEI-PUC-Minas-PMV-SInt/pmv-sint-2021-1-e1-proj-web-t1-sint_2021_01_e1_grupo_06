@@ -8,10 +8,10 @@
 
 ## Integrantes
 
-Clauzioney Francisco dos Santos;
+
 Dione Pereira Santos;
 Iara Camargo de Oliveira;
-Lucas Eugêncio Silva.
+
 
 ## Professor
 
