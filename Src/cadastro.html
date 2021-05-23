@@ -1,66 +1,66 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-   <cabeça>
+   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta nome="viewport" conteúdo="largura=largura do dispositivo, escala inicial=1,0">
-    <título>Cadastro>
-    <link rel="stylesheet" href="estilo.css">
-    <script scr="app.java.js">>
-</cabeça>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <script scr="app.java.js"></script>
+</head>
 
-<corpo>
-    <div id="recipiente principal">
-        <h1>Cadastro suas informações:>
-        <formulário id="registro">
-            <classe div ="caixa cheia">
-                <rótulo para="e-mail">e-mail>
-                < tipo deentrada ="e-mail" nome="E-mail" id="e-mail" espaço reservado="Digite seu e-mail">
-            </Div>
-            <Br>
-            <classe div ="espaçamento de caixa de meia">
-                <rótulo para="nome">Nome/RazãoSocial >
-                < tipo deentrada ="texto" nome="Nome" id="e-mail" espaço reservado="Digite seu Nome">
-            </Div>
-            <classe div ="meia-caixa">
-                <rótulo para="CPF">CPF/CNPJ>
-                < tipo deentrada ="número" nome="cpf" id="cpf" espaço reservado="Digite seu cpf">
-            </Div>
-            <classe div ="meia-caixa">
-                <rótulo para="telefone">Telefone>
-                < tipo deentrada ="número" nome="Telefone" id="telefone" espaço reservado="Digite seu telefone">
-            </Div>
-            <classe div ="meia-caixa">
-                <conjunto de campo>
-                 <lenda>Endereço:>
-                    <rótulo para="endereço">Endereço>
-                    < tipo deentrada ="endereço" nome="Endereço" id="endereço" espaço reservado="Digite seu endereço">
-                    <rótulo para="bairro">Bairro>
-                    < tipo deentrada ="texto" nome="Bairro" id="bairro" espaço reservado="Digite o bairro"> 
-                    <rótulo para="município">Município>
-                    < tipo deentrada ="texto" nome="Município" id="Município" espaço reservado="Digite o município">
-                </conjunto de campo>
-            </Div>
-            <classe div ="espaçamento de caixa de meia">
-                <rótulo para="senha">Senha>
-                < tipo deentrada ="senha" nome="senha" id="senha" espaço reservado="Digite a sua senha">
-            </Div>
-            <classe div ="meia-caixa">
-                <rótulo para="passconfirmation">Confirmação senha>
-                < tipo deentrada ="senha" nome="passconfirmation" id="passconfirmation" placeholder="Confirme a sua senha senha">
-            </Div>
+<body>
+    <div id="main-container">
+        <h1>Cadastre suas informações:</h1>
+        <form id="registro">
+            <div class="full-box">
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="email" placeholder="Digite seu email">
+            </div>
+            <br>
+            <div class="half-box spacing">
+                <label for="name">Nome/Razão Social</label>
+                <input type="text" name="Nome" id="email" placeholder="Digite seu Nome">
+            </div>
+            <div class="half-box">
+                <label for="cpf">CPF/CNPJ</label>
+                <input type="number" name="cpf" id="cpf" placeholder="Digite seu cpf">
+            </div>
+            <div class="half-box">
+                <label for="telefone">Telefone</label>
+                <input type="number" name="Telefone" id="telefone" placeholder="Digite seu telefone">
+            </div>
+            <div class="half-box">
+                <fieldset>
+                 <legend>Endereço:</legend>
+                    <label for="endereço">Endereço</label>
+                    <input type="address" name="Endereço" id="endereço" placeholder="Digite seu endereço">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" name="Bairro" id="bairro" placeholder="Digite o bairro"> 
+                    <label for="município">Município</label>
+                    <input type="text" name="Município" id="Município" placeholder="Digite o município">
+                </fieldset>
+            </div>
+            <div class="half-box spacing">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite a sua senha">
+            </div>
+            <div class="half-box">
+                <label for="passconfirmation">Confirmação senha</label>
+                <input type="password" name="passconfirmation" id="passconfirmation" placeholder="Confirme a sua senha">
+            </div>
 
-            <classe div ="meia-caixa">
-                < tipo deentrada ="enviar "id="btn-salvar" valor="salvar">
+            <div class="half-box">
+                <input type="submit" id="btn-salvar" value="salvar">
 
-            </Div>
+            </div>
 
-        </forma>
+        </form>
 
 
-    </Div
-      <roteiro>
-            atual=documento. getElementById("registro");     
-      </roteiro>
-</corpo>
+    </div
+      <script>
+            atual=document.getElementById("registro");     
+      </script>
+</body>
 </html>
