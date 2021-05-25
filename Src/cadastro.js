@@ -32,3 +32,4 @@ var cadastro = {
 };
 
 var relatorio = JSON.parse(localStorage.getItem('cadastro'));
+function salvar(){}
