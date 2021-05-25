@@ -14,3 +14,21 @@ var registro = JSON.stringify(cadastro);
 var localStorage = Window.localStorage
 localStorage.setItem('registro','cadastro');
 
+
+
+
+
+
+
+var cadastro = {
+    nome= document.getElementById("nome"),
+    email= document.getElementById("email"),
+    cpf= document.getElementById("cpf"),
+    telefone= document.getElementById("telfone"),
+    endereço= document.getElementById("endereço"),
+    bairro= document.getElementById("bairro"),
+    Município= document.getElementById("Município"),
+    password= document.getElementById("password")
+};
+
+var relatorio = JSON.parse(localStorage.getItem('cadastro'));
