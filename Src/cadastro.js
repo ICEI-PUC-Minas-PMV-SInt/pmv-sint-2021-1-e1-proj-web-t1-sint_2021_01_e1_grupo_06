@@ -22,4 +22,64 @@ function salvar(){
     ls.setItem("usuarios", jm);
     
 }
+function validar() {
+    var email = document.getElementById("email");
+    var nome = document.getElementById("nome");
+    var cpf = document.getElementById("cpf");
+    var telefone = document.getElementById("telefone");
+    var endereco = document.getElementById("endereço");
+    var bairro = document.getElementById("bairro");
+    var municipio = document.getElementById("Município");
+    var password = document.getElementById("password");
+    var passconfirmation = document.getElementById("passconfirmation");
+  
+    
+    if (email.value == "") {
+        alert("E-mail não informado");
+        email.focus();
+        return;
+      }
+    if (nome.value == "") {
+      alert("Nome não informado");
+  
+      nome.focus();
+
+      return;
+    }
+    if (cpf.value == "") {
+        alert("CPF/CNPJ não informado");
+        cpf.focus();
+        return;
+      }
+      if (telefone.value == "") {
+        alert("Telefone não informado");
+        telefone.focus();
+        return;
+      }
+    if (endereco.value == "") {
+      alert("Endereço não informado");
+      endereco.focus();
+      return;
+    }
+    if (bairro.value == "") {
+      alert("Bairro não informado");
+      bairro.focus();
+      return;
+    }
+    if (municipio.value == "") {
+      alert("Município não informado");
+      municipio.focus();
+      return;
+    }
+    if (password.value == "") {
+        alert("Senha não informada");
+        password.focus();
+        return;
+      }
+      if (password.value == "") {
+        alert("Senhas diferentes");
+        passconfirmation.focus();
+        return;
+      } alert("Formulário enviado!"); 
+    }
 
