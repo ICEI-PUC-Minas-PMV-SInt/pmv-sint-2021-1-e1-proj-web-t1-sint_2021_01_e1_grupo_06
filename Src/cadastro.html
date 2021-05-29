@@ -9,53 +9,49 @@
     <script src="app.js"></script>
 </head>
 <body>
-   <form>
     <div id="main-container">
         <h1>Cadastre suas informações:</h1>
-            <div class="full-box">
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Digite seu email">
+            <div class="label-float">
+                <input type="email" id="email" placeholder="" required>
+                <label id="labelEmail"for="email">Email</label>
             </div>
-            <br>
-            <div class="half-box spacing">
-                <label for="name">Nome/Razão Social</label>
-                <input type="text" id="nome" placeholder="Digite seu Nome">
+            <div class="label-float">
+                <input type="text" id="nome" placeholder="" required>
+                <label id="labelNome"for="name">Nome/Razão Social</label>
             </div>
-            <div class="half-box">
-                <label for="cpf">CPF/CNPJ</label>
-                <input type="number" id="cpf" placeholder="Digite seu cpf">
+            <div class="label-float">
+                <input type="number" id="cpf" placeholder="" required>
+                <label id="labelCpf for="cpf">CPF/CNPJ</label>
             </div>
-            <div class="half-box">
-                <label for="telefone">Telefone</label>
-                <input type="number" id="telefone" placeholder="Digite seu telefone">
+            <div class="label-float">
+                <input type="number" id="telefone" placeholder="" required>
+                <label id="labelTelefone" for="telefone">Telefone</label>
             </div>
-            <div class="half-box">
-                <fieldset>
-                 <legend>Endereço:</legend>
-                    <label for="endereço">Endereço</label>
-                    <input type="address"  id="endereço" placeholder="Digite seu endereço">
-                    <label for="bairro">Bairro</label>
-                    <input type="text" id="bairro" placeholder="Digite o bairro"> 
-                    <label for="município">Município</label>
-                    <input type="text" id="Município" placeholder="Digite o município">
-                </fieldset>
+            <div class="label-float">
+                <input type="address"  id="endereço" placeholder="" required>
+                <label id="labelEndereço" for="endereço">Endereço</label>
             </div>
-            <div class="half-box spacing">
-                <label for="password">Senha</label>
-                <input type="password" id="password" placeholder="Digite a sua senha">
+            <div class="label-float">
+                <input type="text" id="bairro" placeholder="" required> 
+                <label id="labelBairro" for="bairro">Bairro</label>
+              </div>
+            <div class="label-float">
+                <input type="text" id="Município" placeholder="" required>
+                <label id="labelMunicípio" for="município">Município</label>
             </div>
-            <div class="half-box">
-                <label for="passconfirmation">Confirmação senha</label>
-                <input type="password" id="passconfirmation" placeholder="Confirme a sua senha">
+            <div class="label-float">
+                <input type="password" id="password" placeholder="" required>
+                <label id="labelPassword" for="password">Senha</label>
+            </div>
+            <div class="label-float">
+                <input type="password" id="passconfirmation" placeholder="" required>
+                <label id="labelPassconfirmation" for="passconfirmation">Confirmação senha</label>
             </div>
 
-            <div class="half-box">
+            <div class="">
                <button onclick="salvar();validar();">Cadastrar</button>
 
        </div>
-
     </div>
-   </form>
 </body>
 </html>
-
