@@ -21,7 +21,11 @@ function salvar(){
     var ls = window.localStorage;
     ls.setItem("usuarios", jm);
     
+    setTimeout(()=>{
+      window.location.href = 'http://127.0.0.1:5503/html'
+  }, 1000)
 }
+
 function validar() {
     var email = document.getElementById("email");
     var nome = document.getElementById("nome");
