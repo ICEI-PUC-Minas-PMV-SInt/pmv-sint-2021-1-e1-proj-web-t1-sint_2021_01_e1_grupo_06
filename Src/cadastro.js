@@ -1,32 +1,4 @@
-function salvar(){
-    alert("Processando");
-    var nome = document.getElementById("nome").value;
-    var email= document.getElementById("email").value;
-    var cpf= document.getElementById("cpf").value;
-    var telefone= document.getElementById("telefone").value;
-    var endereco= document.getElementById("endereço").value;
-    var bairro= document.getElementById("bairro").value;
-    var municipio= document.getElementById("Município").value;
-    var password= document.getElementById("password").value;
-    var usuario = new Object();
-    usuario.nome=nome;
-    usuario.email=email;
-    usuario.cpf=cpf;
-    usuario.telefone=telefone;
-    usuario.endereco=endereco;
-    usuario.bairro=bairro;
-    usuario.municipio=municipio;
-    usuario.password=password;
-    var jm = JSON.stringify(usuario);
-    var ls = window.localStorage;
-    ls.setItem("usuarios", jm);
-    
-    setTimeout(()=>{
-      window.location.href = 'http://127.0.0.1:5503/html'
-  }, 1000)
-}
-
-function validar() {
+function salvar() {
     var email = document.getElementById("email");
     var nome = document.getElementById("nome");
     var cpf = document.getElementById("cpf");
@@ -36,7 +8,7 @@ function validar() {
     var municipio = document.getElementById("Município");
     var password = document.getElementById("password");
     var passconfirmation = document.getElementById("passconfirmation");
-  
+   // validação de dados //
     
     if (email.value == "") {
         alert("E-mail não informado");
@@ -47,7 +19,7 @@ function validar() {
       alert("Nome não informado");
   
       nome.focus();
-
+  
       return;
     }
     if (cpf.value == "") {
@@ -80,10 +52,34 @@ function validar() {
         password.focus();
         return;
       }
-      if (password.value == "") {
+      if (passconfirmation.value != password.value) {
         alert("Senhas diferentes");
         passconfirmation.focus();
         return;
-      } alert("Formulário enviado!"); 
-    }
-
+      } 
+    else alert("Processando") //salvando dados no localStorage//
+    var nome = document.getElementById("nome").value;
+    var email= document.getElementById("email").value;
+    var cpf= document.getElementById("cpf").value;
+    var telefone= document.getElementById("telefone").value;
+    var endereco= document.getElementById("endereço").value;
+    var bairro= document.getElementById("bairro").value;
+    var municipio= document.getElementById("Município").value;
+    var password= document.getElementById("password").value;
+    var usuario = new Object();
+    usuario.nome=nome;
+    usuario.email=email;
+    usuario.cpf=cpf;
+    usuario.telefone=telefone;
+    usuario.endereco=endereco;
+    usuario.bairro=bairro;
+    usuario.municipio=municipio;
+    usuario.password=password;
+    var jm = JSON.stringify(usuario);
+    var ls = window.localStorage;
+    ls.setItem("usuarios", jm);
+     //redirecionamento para tela de login//
+setTimeout(()=>{
+  window.location.href = 'login.html'
+}, 1000) 
+}
