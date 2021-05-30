@@ -2,30 +2,28 @@
 <html lang="en">
        <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Entrar</title>
         <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
     </head>
     <body>
         <div id="main-container">
             <h1>Esqueceu a senha?</h1>
-            <form id="registro">
-                <div class="full-box">
-                    <label for="email">Email</label>
-                    <input type="email" name="Email" id="email" placeholder="Digite seu email">
-                <div class="half-box spacing">
-                    <label for="name">Nome</label>
-                    <input type="text" name="name" id="name" placeholder="Digite o seu nome">
+                <div class="label-float">
+                    <input type="email" id="email" placeholder="" required>
+                    <label id="labelEmail"for="email">Email</label>
                 </div>
-                <div>
-                    <label for="senha">Senha</label>
-                    <input type="text" id="senha">
+                <div class="label-float">
+                        <input type="nome" id="nome" placeholder="" required>
+                        <label id="labelNome"for="nome">Nome</label>
                 </div>
-                <div class="half-box">
-                    <input type="submit" id="btn-entrar" value="Entrar">
+                <div class="label-float">
+                    <input type="password" id="password" placeholder="" required>
+                    <label id="labelPassword" for="password">Senha</label>
                 </div>
-            </form>
+                <div class="">
+                    <button><a href="http://127.0.0.1:5503/html">Voltar</a></button>
+                </div>
         </div>
     </body>
 </html>
