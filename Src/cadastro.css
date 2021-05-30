@@ -52,14 +52,14 @@ body {
     padding-top: 5vh;
     background-size: cover;
     background-position-y: -150px;
-    background-color: rgb(165, 166, 212);
+    background-color: #8C99B9;
 }
 
 #main-container {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #FFF;
+    background-color:#D2DBF2;
     border-radius: 10px;
     padding: 25px;
 }
@@ -78,7 +78,7 @@ input {
 }
 
 button{
-    background-color: #D2DBF2;
+    background-color: #FFF;
     color:#0d009c;
     border: none;
     border-radius: 20px;
@@ -100,3 +100,6 @@ button:hover{
     background-color: #8C99B9;
     color: #FFF;
   }
+  p :hover{
+    color: #0d009c;
+}
