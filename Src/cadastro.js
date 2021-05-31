@@ -83,3 +83,13 @@ setTimeout(()=>{
   window.location.href = 'login.html'
 }, 1000) 
 }
+unction password() {
+
+    if (jm && usuario.password) {
+        alert("sucesso");
+
+        return false;
+    } else {
+        alert("senha ou usuari não cadastrado")
+    }
+}
