@@ -83,6 +83,7 @@ setTimeout(()=>{
   window.location.href = 'login.html'
 }, 1000) 
 }
+//tela login//
 function password() {
 
     if (jm && usuario.password) {
