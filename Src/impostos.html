@@ -2,43 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device=width, inicial-sacel=1.0">
     <title>Impostos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="impostos.css"/>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
 </head>
-<footer>
-    <div class="footer__container">     
-      </section>
-    </div>
-</footer>
 <body>
-    <nav>
-        <ul class="menu">
-            <li class='justify-center'>
-                <a href="#geração" class="button" id="geração">GERAÇÃO DE PREÇO</a>
+    <nav class="navbar">
+        <div class="navbar__container">
+          <a href="#home" id="navbar__logo"></a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="#geração" class="navbar__links" id="geração">Geração de preço</a>
             </li>
-            <li class='justify-center'>
-                <a href="#investimentos" class="button" id="investimentos">INVESTIMENTOS</a>
+            <li class="navbar__item">
+              <a href="#impostos" class="navbar__links" id="impostos">Impostos</a>
             </li>
-            <li class='justify-center'>
-                <a href="#fixas" class="button" id="fixas"> DESPESAS FIXAS</a>
+            <li class="navbar__item">
+              <a href="#premissas" class="navbar__links" id="premissas"
+                >Premissas</a
+              >
             </li>
-            <li class='justify-center'>
-                <a href="#variaveis" class="button" id="variaveis">DESPESAS VARIÁVEIS</a>
+            <li class="navbar__item">
+              <a href="#fixas" class="navbar__links" id="fixas">Despesas fixas</a>
             </li>
-            <li class='justify-center'>
-                <a href="#impostos" class="button" id="impostos">IMPOSTOS</a>
+            <li class="navbar__item">
+              <a href="variáveis" class="navbar__links" id="variáveis">Despesas variáveis</a>
             </li>
-            <li class='justify-center'>
-                <a href="http://127.0.0.1:5500/index.html" class="button" id="premissas">PREMISSAS</a>
+            <li class="navbar__item">
+              <a href="investimentos" class="navbar__links" id="investimentos">Investimentos</a>
             </li>
-        </ul>
-    </nav>
-    <div id="title">IMPOSTOS</div>
+          </ul>
+        </div>
+      </nav>
+    <div id="title">Geração de preço</div>
 
+    
+    <script src="impostos.js"></script>
 </body>
 <footer>
-    <div class="footer__container2">     
+    <div class="footer__container">     
       </section>
     </div>
 </footer>
