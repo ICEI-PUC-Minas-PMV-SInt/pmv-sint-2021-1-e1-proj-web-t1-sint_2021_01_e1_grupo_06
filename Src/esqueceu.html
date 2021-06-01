@@ -18,12 +18,14 @@
                         <input type="nome" id="nome" placeholder="" required>
                         <label id="labelNome"for="nome">Nome</label>
                 </div>
-                <div class="label-float">
-                    <input type="password" id="password" placeholder="" required>
-                    <label id="labelPassword" for="password">Senha</label>
+                <div id= "mostrarSenha" style="display: none">
+                    <div class="label-float">
+                    <input type="password" id="password" placeholder="" >
+                    <label id="labelPassword"for="password">Senha</label>
+                    </div>
                 </div>
                 <div class="">
-                    <button on click = "salvar();" >Mostrar senha</button>
+                    <button onclick ="mostrarSenha();" >Mostrar senha</button>
                 </div>
                 <div class="">
                     <button><a href="login.html">Voltar</a></button>
