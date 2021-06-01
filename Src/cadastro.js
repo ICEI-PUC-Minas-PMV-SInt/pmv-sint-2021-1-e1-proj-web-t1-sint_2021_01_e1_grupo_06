@@ -84,15 +84,20 @@ setTimeout(()=>{
 }, 1000) 
 }
 //tela login//
-function password() {
+function logar(){
+  var email= document.getElementById("email");
+  var password = document.getElementById("password");
+  var jsonUsuarios = window.localStorage.getItem('usuarios');
+  var usuarios = JSON.parse(jsonUsuarios);
 
-    if (jm && usuario.password) {
-        alert("sucesso");
+  if (email.value == usuarios.email && password.value == usuarios.password){
+    localStorage.setItem("acesso",true);
 
-        return false;
-    } else {
-        alert("senha ou usuario não cadastrado")
-    }
+    window.location.href = "impostos.html";
+  }else {
+    alert("Usuario não encontrado");
+  }
+
 }
 //tela esqueceu a senha?//
 function mostrarSenha(){
