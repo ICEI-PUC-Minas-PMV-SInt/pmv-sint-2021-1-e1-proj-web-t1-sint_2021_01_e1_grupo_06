@@ -94,3 +94,20 @@ function password() {
         alert("senha ou usuario não cadastrado")
     }
 }
+//tela esqueceu a senha?//
+function mostrarSenha(){
+  var password = document.getElementById("mostrarSenha");
+  var email= document.getElementById("email");
+  var nome = document.getElementById("nome");
+  var jsonUsuarios = window.localStorage.getItem('usuarios');
+  var usuarios = JSON.parse(jsonUsuarios);
+  
+  
+  if (email.value == usuarios.email && nome.value == usuarios.nome){
+    password.style.display = "block";
+    password.innerHTML = usuarios.password;
+
+  }else {
+    alert("Dados não encontrados");
+  }
+}
