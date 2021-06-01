@@ -1,3 +1,4 @@
+//tela cadastro//
 function salvar() {
     var email = document.getElementById("email");
     var nome = document.getElementById("nome");
@@ -57,7 +58,8 @@ function salvar() {
         passconfirmation.focus();
         return;
       } 
-    else alert("Processando") //salvando dados no localStorage//
+    //salvando dados no localStorage//
+    else alert("Processando") 
     var nome = document.getElementById("nome").value;
     var email= document.getElementById("email").value;
     var cpf= document.getElementById("cpf").value;
@@ -78,9 +80,9 @@ function salvar() {
     var jm = JSON.stringify(usuario);
     var ls = window.localStorage;
     ls.setItem("usuarios", jm);
-     //redirecionamento para tela de login//
+     //redirecionamento para tela de impostos//
 setTimeout(()=>{
-  window.location.href = 'login.html'
+  window.location.href = 'impostos.html'
 }, 1000) 
 }
 //tela login//
