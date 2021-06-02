@@ -12,6 +12,7 @@
     />
 </head>
 <body>
+   <!-- MENU SUPERIOR -->
     <nav class="navbar">
         <div class="navbar__container">
           <a href="#home" id="navbar__logo"></a>
@@ -43,7 +44,62 @@
           </ul>
         </div>
       </nav>
-    <div id="title">Geração de preço</div>
+    <!-- GERAÇÃO DE PREÇO-->
+    <div id="fProdutos">
+      <form>
+          <div class="form-group">
+              <label for="txtDescricao">Descrição</label>
+              <input type="text" class="form-control" id="txtDescricao" placeholder="">
+          </div>
+          <div class="form-group">
+              <label for="txtValor">Valor</label>
+              <input type="text" class="form-control" id="txtValor" placeholder=""> <br><br>
+          <button type="button" class="btn btn-primary btn-lg"
+                  onclick="cadProduto(txtDescricao.value, txtValor.value)">
+              Inserir
+          </button>
+          <button type="button" class="btn btn-primary btn-lg"
+                  onclick="altProduto(txtDescricao.value, txtValor.value)">
+              Salvar
+          </button>
+          <button type="button" class="btn btn-primary btn-lg"
+                  onclick="delRegistro()">
+              Excluir
+          </button>
+      </form>
+  </div>
+
+  <br />
+  <br />
+
+  <div id="dGridPessoas">
+
+      <table border="1" id="tbProdutos" class="table table-striped">
+          <thead class="thead-dark">
+              <tr>
+                  <th scope="col" >Descriçaõ</th>
+                  <th scope="col">Valor</th>
+              </tr>
+          </thead>
+      </table>
+  </div>
+     <!-- IMPOSTOS-->
+     <div class="impostos" id="impostos">
+      
+    </div>
+     <!-- PREMISSAS-->
+     <div class="premissas" id="premissas">
+    </div>
+    <!-- FIXAS-->
+    <div class="fixas" id="fixas">
+    </div>
+    <!-- VARIAVEIS-->
+    <div class="variáveis" id="variáveis">
+    </div>
+    <!-- INVESTIMENTOS-->
+    <div class="investimentos" id="investimentos">
+    
+    </div>
 
     
     <script src="impostos.js"></script>
