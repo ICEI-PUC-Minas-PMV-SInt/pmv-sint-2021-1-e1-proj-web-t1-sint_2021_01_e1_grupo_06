@@ -209,6 +209,8 @@
                 <th>Código</th>
                 <th>Descrição</th>
                 <th>Valor</th>
+                <th>Depreciação</th>
+                <th>Valor por mês</th>
             </tr>
         </thead>
       </table>
@@ -218,11 +220,14 @@
 <div id="form">
   <label type="text" class="form-control" id="txtCodigoI" readonly>
   <input type="text"  id="txtDescricaoI" placeholder="" required> 
-  <input type="text"  id="txtValorI" placeholder="" required> 
-</div>
+  <input type="number"  id="txtValorI" placeholder="" required>
+  <input type="number"  id="txtDepreciação" placeholder="" required>
+  <label type="number"  id="txtValorM" readonly>
+  </div>
 <tr>
   <td>
-    <button type="button" id="inserir" onclick="cadInvestimentos(txtDescricaoI.value, txtValorI.value)"> Inserir
+    <button type="button" id="inserir" onclick="cadInvestimentos(txtDescricaoI.value, txtValorI.value, txtDepreciação.value, txtValorM.value)"> Inserir
+    </button>
 <button type="button" id="excluir" onclick="delRegistro()"> Excluir </button>
 </td>
 </tr>
