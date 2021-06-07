@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: Roboto, sans-serif ;
   scroll-behavior: smooth;
 }
 
@@ -12,7 +12,7 @@
   background: -webkit-linear-gradient(to right, #1A2980, #26D0CE);
   background: linear-gradient(to right,#1A2980, #26D0CE );
   color: #fff;
-  height: 80px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -167,7 +167,6 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 }
-
   .footer__container{
     background: #1A2980;
     background: -webkit-linear-gradient(to right, #1A2980, #26D0CE);
@@ -177,5 +176,63 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 200rem;
+  }
+  #inserir{
+    background-color: #ADFF9F;
+    border-radius: 10px;
+    width: 110px;
+    height: 19px;
+    border-bottom: 2px solid black
+  }
+  #excluir{
+    background-color: #F9937C;
+    border-radius: 10px;;
+    width: 110px;
+    height: 19px;
+    border-bottom: 2px solid black
+    
+  }
+  #dGrid{
+    background-color: #FEED59;
+    border-radius: 20px;
+    padding: 6px;
+    width: fit-content;
+    height:fit-content;
+    margin-top: 20px;
+    margin-left: 160px;
+    border: 0;
+    outline: none;
+    font-size: 16px;  
+    line-height: 40px;
+  }
+  button{
+    margin-left: 90px;
+    border: none;
+  }
+  p{
+    margin-top: 0px;
+    margin-left: 40px;
+    font-size: 34px;
+  }
+  #form{
+    margin-left: 80px;
+    width:fit-content;
+  }
+  .impostos{
+    padding: 100px 0;
+  }
+  .premissas{
+    padding: 100px 0;
+  }
+  .geração{
+    padding: 100px 0;
+  }
+  .despesasf{
+    padding: 100px 0;
+  }
+  .despesasv{
+    padding: 100px 0;
+  }
+  .investimentos{
+    padding: 100px 0;
   }
