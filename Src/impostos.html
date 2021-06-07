@@ -4,12 +4,6 @@
     <meta charset="UTF-8">
     <title>Impostos</title>
     <link rel="stylesheet" href="impostos.css"/>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
 </head>
 <body>
    <!-- MENU SUPERIOR -->
@@ -22,15 +16,15 @@
           </div>
           <ul class="navbar__menu">
             <li class="navbar__item">
-              <a href="#geração" class="navbar__links" id="geração">Geração de preço</a>
-            </li>
-            <li class="navbar__item">
               <a href="#impostos" class="navbar__links" id="impostos">Impostos</a>
             </li>
             <li class="navbar__item">
               <a href="#premissas" class="navbar__links" id="premissas"
                 >Premissas</a
               >
+              <li class="navbar__item">
+                <a href="#geração" class="navbar__links" id="geração">Geração de preço</a>
+              </li>
             </li>
             <li class="navbar__item">
               <a href="#fixas" class="navbar__links" id="fixas">Despesas fixas</a>
@@ -44,69 +38,202 @@
           </ul>
         </div>
       </nav>
-    <!-- GERAÇÃO DE PREÇO-->
-    <div id="fProdutos">
-      <form>
-          <div class="form-group">
-              <label for="txtDescricao">Descrição</label>
-              <input type="text" class="form-control" id="txtDescricao" placeholder="">
-          </div>
-          <div class="form-group">
-              <label for="txtValor">Valor</label>
-              <input type="text" class="form-control" id="txtValor" placeholder=""> <br><br>
-          <button type="button" class="btn btn-primary btn-lg"
-                  onclick="cadProduto(txtDescricao.value, txtValor.value)">
-              Inserir
-          </button>
-          <button type="button" class="btn btn-primary btn-lg"
-                  onclick="altProduto(txtDescricao.value, txtValor.value)">
-              Salvar
-          </button>
-          <button type="button" class="btn btn-primary btn-lg"
-                  onclick="delRegistro()">
-              Excluir
-          </button>
-      </form>
-  </div>
-
-  <br />
-  <br />
-
-  <div id="dGridPessoas">
-
-      <table border="1" id="tbProdutos" class="table table-striped">
-          <thead class="thead-dark">
-              <tr>
-                  <th scope="col" >Descriçaõ</th>
-                  <th scope="col">Valor</th>
-              </tr>
-          </thead>
-      </table>
-  </div>
-     <!-- IMPOSTOS-->
+           <!-- IMPOSTOS-->
      <div class="impostos" id="impostos">
-      
+      <div>
+        <p>Impostos</p>
+      </div>
+      <div id="dGrid">
+        <table id="tbImpostos" border="1">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+          </table>
+  </div>
+  <br>
+  <div>
+    <div id="form">
+      <label type="text" class="form-control" id="txtCodigo" readonly>
+      <input type="text"  id="txtDescricao" placeholder="" required> 
+      <input type="text"  id="txtValor" placeholder="" required> 
+  </div>
+    <tr>
+      <td>
+        <button type="button" id="inserir" onclick="cadImposto(txtDescricao.value, txtValor.value)"> Inserir
+<button type="button" id="excluir" onclick="delRegistro()"> Excluir </button>
+  </td>
+  </tr>
+  </div>
     </div>
      <!-- PREMISSAS-->
      <div class="premissas" id="premissas">
+      <div>
+        <p>Premissas</p>
+      </div>
+      <div id="dGrid">
+        <table id="tbPremissas" border="1">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+          </table>
+  </div>
+  <br>
+  <div>
+    <div id="form">
+      <label type="text" class="form-control" id="txtCodigoP" readonly>
+      <input type="text"  id="txtDescricaoP" placeholder="" required> 
+      <input type="text"  id="txtValorP" placeholder="" required> 
+  </div>
+    <tr>
+      <td>
+        <button type="button" id="inserir" onclick="cadPremissas(txtDescricaoP.value, txtValorP.value)"> Inserir
+        </button>
+<button type="button" id="excluir" onclick=""> Excluir </button>
+  </td>
+  </tr>
+  </div>
     </div>
-    <!-- FIXAS-->
-    <div class="fixas" id="fixas">
+   <!-- GERAÇÃO DE PREÇO--> 
+   <div class="geração" id="geração ">
+    <div>
+      <p>Geração de preço</p>
     </div>
-    <!-- VARIAVEIS-->
-    <div class="variáveis" id="variáveis">
+    <div id="dGrid">
+      <table id="tbGeracao" border="1">
+          <thead>
+              <tr>
+                  <th>Código</th>
+                  <th>Descrição</th>
+                  <th>Valor</th>
+              </tr>
+          </thead>
+        </table>
+</div>
+<br>
+<div>
+  <div id="form">
+    <label type="text" class="form-control" id="txtCodigoG" readonly>
+    <input type="text"  id="txtDescricaoG" placeholder="" required> 
+    <input type="text"  id="txtValorG" placeholder="" required> 
+</div>
+  <tr>
+    <td>
+      <button type="button" id="inserir" onclick="cadGeracao(txtDescricaoP.value, txtValorP.value)"> Inserir
+      </button>
+<button type="button" id="excluir" onclick=""> Excluir </button>
+</td>
+</tr>
+</div>
+  </div>
+   <!-- DESPESAS FIXAS--> 
+   <div class="despesasf" id="despesasf">
+    <div>
+      <p>Despesas fixas</p>
     </div>
-    <!-- INVESTIMENTOS-->
-    <div class="investimentos" id="investimentos">
-    
+    <div id="dGrid">
+      <table id="tbFixas" border="1">
+          <thead>
+              <tr>
+                  <th>Código</th>
+                  <th>Descrição</th>
+                  <th>Valor</th>
+              </tr>
+          </thead>
+        </table>
+</div>
+<br>
+<div>
+  <div id="form">
+    <label type="text" class="form-control" id="txtCodigoF" readonly>
+    <input type="text"  id="txtDescricaoF" placeholder="" required> 
+    <input type="text"  id="txtValorF" placeholder="" required> 
+</div>
+  <tr>
+    <td>
+      <button type="button" id="inserir" onclick="cadFixas(txtDescricaoF.value, txtValorF.value)"> Inserir
+      </button>
+<button type="button" id="excluir" onclick=""> Excluir </button>
+</td>
+</tr>
+</div>
+  </div>
+  <!-- DESPESAS VARIÁVEIS--> 
+  <div class="despesasv" id="despesasv">
+    <div>
+      <p>Despesas variáveis</p>
     </div>
+    <div id="dGrid">
+      <table id="tbVariaveis" border="1">
+          <thead>
+              <tr>
+                  <th>Código</th>
+                  <th>Descrição</th>
+                  <th>Valor</th>
+              </tr>
+          </thead>
+        </table>
+</div>
+<br>
+<div>
+  <div id="form">
+    <label type="text" class="form-control" id="txtCodigoV" readonly>
+    <input type="text"  id="txtDescricaoV" placeholder="" required> 
+    <input type="text"  id="txtValorV" placeholder="" required> 
+</div>
+  <tr>
+    <td>
+      <button type="button" id="inserir" onclick="cadVariaveis(txtDescricaoV.value, txtValorV.value)"> Inserir
+      </button>
+<button type="button" id="excluir" onclick=""> Excluir </button>
+</td>
+</tr>
+</div>
+  </div>
+ <!-- INVESTIMENTOS-->
+ <div class="investimentos" id="investimentos">
+  <div>
+    <p>Investimentos</p>
+  </div>
+  <div id="dGrid">
+    <table id="tbInvestimentos" border="1">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Descrição</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+      </table>
+</div>
+<br>
+<div>
+<div id="form">
+  <label type="text" class="form-control" id="txtCodigoI" readonly>
+  <input type="text"  id="txtDescricaoI" placeholder="" required> 
+  <input type="text"  id="txtValorI" placeholder="" required> 
+</div>
+<tr>
+  <td>
+    <button type="button" id="inserir" onclick="cadInvestimentos(txtDescricaoI.value, txtValorI.value)"> Inserir
+<button type="button" id="excluir" onclick="delRegistro()"> Excluir </button>
+</td>
+</tr>
+</div>
+</div>
 
-    
     <script src="impostos.js"></script>
 </body>
 <footer>
-    <div class="footer__container">     
-      </section>
-    </div>
+  <div class="footer__container">     
+    </section>
+  </div>
 </footer>
 </html>
