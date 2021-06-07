@@ -117,7 +117,7 @@ fixa.descrição = descrição;
 fixa.valor =  valor;
 var jm = JSON.stringify(fixa);
 var ls = window.localStorage;
-ls.setItem("desesas fixas", jm);
+ls.setItem("despesas fixas", jm);
 }
 
 
@@ -144,12 +144,12 @@ variavel.descrição = descrição;
 variavel.valor =  valor;
 var jm = JSON.stringify(variavel);
 var ls = window.localStorage;
-ls.setItem("desesas variáveis", jm);
+ls.setItem("despesas variáveis", jm);
 }
     
 
 // tabela investimentos//
-function cadInvestimentos(descrição, valor) {
+function cadInvestimentos(descrição, valor, depreciação,) {
     investimento = document.getElementById("tbInvestimentos");    
     var qtdlLinhasI = investimento.rows.length;
     var linhaI = investimento.insertRow(qtdlLinhasI);
@@ -157,21 +157,26 @@ function cadInvestimentos(descrição, valor) {
 var cellCodigoI = linhaI.insertCell(0);
 var cellDescricaoI = linhaI.insertCell(1);
 var cellValorI = linhaI.insertCell(2);
+var cellDepreciação = linhaI.insertCell(3);
+var cellValorM = linhaI.insertCell(4);
+
 
 cellCodigoI.innerHTML = qtdlLinhasI;
 cellDescricaoI.innerHTML = descrição;
 cellValorI.innerHTML = valor;
-
+cellDepreciação.innerHTML  = depreciação;
+cellValorM.innerHTML = cellValorI.innerHTML / cellDepreciação.innerHTML;
 
 var cellCodigoI = qtdlLinhasI;
 var cellDescricaoI = descrição;
 var cellValorI = valor;
+var cellDepreciação = depreciação;
 var investimento = new Object();
 investimento.codigo = qtdlLinhasI;
 investimento.descrição = descrição;
 investimento.valor =  valor;
+investimento.depreciação = depreciação;
 var jm = JSON.stringify(investimento);
 var ls = window.localStorage;
 ls.setItem("investimentos", jm);
-
 }
