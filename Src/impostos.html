@@ -16,15 +16,15 @@
           </div>
           <ul class="navbar__menu">
             <li class="navbar__item">
+              <a href="#geração" class="navbar__links" id="geração">Geração de preço</a>
+            </li>
+            <li class="navbar__item">
               <a href="#impostos" class="navbar__links" id="impostos">Impostos</a>
             </li>
             <li class="navbar__item">
               <a href="#premissas" class="navbar__links" id="premissas"
                 >Premissas</a
               >
-              <li class="navbar__item">
-                <a href="#geração" class="navbar__links" id="geração">Geração de preço</a>
-              </li>
             </li>
             <li class="navbar__item">
               <a href="#fixas" class="navbar__links" id="fixas">Despesas fixas</a>
@@ -38,6 +38,40 @@
           </ul>
         </div>
       </nav>
+      <!-- GERAÇÃO DE PREÇO--> 
+<div class="geração" id="geração ">
+  <div>
+    <p>Geração de preço</p>
+  </div>
+  <div id="dGrid">
+    <table id="tbGeracao" border="1">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Descrição</th>
+                <th>Valor</th>
+                <th>Preço de venda</th>
+            </tr>
+        </thead>
+      </table>
+</div>
+<br>
+<div>
+<div id="form">
+  <label type="text" class="form-control" id="txtCodigoG" readonly>
+  <input type="text"  id="txtDescricaoG" placeholder="Descrição" required> 
+  <input type="text"  id="txtValorG" placeholder="Valor" required>
+  <label type="text" class="form-control" id="PreçoV" readonly> 
+</div>
+<tr>
+  <td>
+    <button type="button" id="inserir" onclick="cadGeracao(txtDescricaoG.value, txtValorG.value)"> Inserir
+    </button>
+<button type="button" id="excluir" onclick="delRegistro()"> Excluir </button>
+</td>
+</tr>
+</div>
+</div>
            <!-- IMPOSTOS-->
      <div class="impostos" id="impostos">
       <div>
@@ -49,7 +83,7 @@
                 <tr>
                     <th>Código</th>
                     <th>Descrição</th>
-                    <th>Valor</th>
+                    <th>Valor (%)</th>
                 </tr>
             </thead>
           </table>
@@ -58,8 +92,8 @@
   <div>
     <div id="form">
       <label type="text" class="form-control" id="txtCodigo" readonly>
-      <input type="text"  id="txtDescricao" placeholder="" required> 
-      <input type="text"  id="txtValor" placeholder="" required> 
+      <input type="text"  id="txtDescricao" placeholder="Descrição" required> 
+      <input type="text"  id="txtValor" placeholder="Valor" required> 
   </div>
     <tr>
       <td>
@@ -89,8 +123,8 @@
   <div>
     <div id="form">
       <label type="text" class="form-control" id="txtCodigoP" readonly>
-      <input type="text"  id="txtDescricaoP" placeholder="" required> 
-      <input type="text"  id="txtValorP" placeholder="" required> 
+      <input type="text"  id="txtDescricaoP" placeholder="Descrição" required> 
+      <input type="text"  id="txtValorP" placeholder="Valor" required> 
   </div>
     <tr>
       <td>
@@ -104,35 +138,6 @@
    <!-- GERAÇÃO DE PREÇO--> 
    <div class="geração" id="geração ">
     <div>
-      <p>Geração de preço</p>
-    </div>
-    <div id="dGrid">
-      <table id="tbGeracao" border="1">
-          <thead>
-              <tr>
-                  <th>Código</th>
-                  <th>Descrição</th>
-                  <th>Valor</th>
-              </tr>
-          </thead>
-        </table>
-</div>
-<br>
-<div>
-  <div id="form">
-    <label type="text" class="form-control" id="txtCodigoG" readonly>
-    <input type="text"  id="txtDescricaoG" placeholder="" required> 
-    <input type="text"  id="txtValorG" placeholder="" required> 
-</div>
-  <tr>
-    <td>
-      <button type="button" id="inserir" onclick="cadGeracao(txtDescricaoP.value, txtValorP.value)"> Inserir
-      </button>
-<button type="button" id="excluir" onclick=""> Excluir </button>
-</td>
-</tr>
-</div>
-  </div>
    <!-- DESPESAS FIXAS--> 
    <div class="despesasf" id="despesasf">
     <div>
@@ -145,6 +150,7 @@
                   <th>Código</th>
                   <th>Descrição</th>
                   <th>Valor</th>
+                  <th>Valor por kwh</th>
               </tr>
           </thead>
         </table>
@@ -153,8 +159,9 @@
 <div>
   <div id="form">
     <label type="text" class="form-control" id="txtCodigoF" readonly>
-    <input type="text"  id="txtDescricaoF" placeholder="" required> 
-    <input type="text"  id="txtValorF" placeholder="" required> 
+    <input type="text"  id="txtDescricaoF" placeholder="Descrição" required> 
+    <input type="text"  id="txtValorF" placeholder="Valor" required> 
+    <label type="text" class="form-control" id="txtValork" readonly>
 </div>
   <tr>
     <td>
@@ -185,8 +192,8 @@
 <div>
   <div id="form">
     <label type="text" class="form-control" id="txtCodigoV" readonly>
-    <input type="text"  id="txtDescricaoV" placeholder="" required> 
-    <input type="text"  id="txtValorV" placeholder="" required> 
+    <input type="text"  id="txtDescricaoV" placeholder="Descrição" required> 
+    <input type="text"  id="txtValorV" placeholder="Valor" required> 
 </div>
   <tr>
     <td>
@@ -210,7 +217,8 @@
                 <th>Descrição</th>
                 <th>Valor</th>
                 <th>Depreciação</th>
-                <th>Valor por mês</th>
+                <th class="calculo">Valor por mês</th>
+                <th class="calculo">Valor Kwh</th>
             </tr>
         </thead>
       </table>
@@ -219,14 +227,15 @@
 <div>
 <div id="form">
   <label type="text" class="form-control" id="txtCodigoI" readonly>
-  <input type="text"  id="txtDescricaoI" placeholder="" required> 
-  <input type="number"  id="txtValorI" placeholder="" required>
-  <input type="number"  id="txtDepreciação" placeholder="" required>
+  <input type="text"  id="txtDescricaoI" placeholder="Descrição" required> 
+  <input type="number"  id="txtValorI" placeholder="Valor" required>
+  <input type="number"  id="txtDepreciação" placeholder="Depreciação" required>
   <label type="number"  id="txtValorM" readonly>
+  <label type="number"  id="txtValorKwh" readonly>
   </div>
 <tr>
   <td>
-    <button type="button" id="inserir" onclick="cadInvestimentos(txtDescricaoI.value, txtValorI.value, txtDepreciação.value, txtValorM.value)"> Inserir
+    <button type="button" id="inserir" onclick="cadInvestimentos(txtDescricaoI.value, txtValorI.value, txtDepreciação.value,)"> Inserir
     </button>
 <button type="button" id="excluir" onclick="delRegistro()"> Excluir </button>
 </td>
