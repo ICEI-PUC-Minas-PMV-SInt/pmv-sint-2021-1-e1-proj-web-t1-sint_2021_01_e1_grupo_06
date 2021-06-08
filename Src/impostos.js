@@ -1,6 +1,7 @@
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
 var linhaParam;
+var impostos, index;
 
 // Display Mobile Menu
 const mobileMenu = () => {
@@ -10,13 +11,53 @@ const mobileMenu = () => {
 
 menu.addEventListener('click', mobileMenu);
 
+// tabela geração//
+function cadGeracao(descrição, valor) {
+    geracao = document.getElementById("tbGeracao");    
+    var qtdlLinhasG = geracao.rows.length;
+    var linhaG = geracao.insertRow(qtdlLinhasG);
+
+
+var cellCodigoG = linhaG.insertCell(0);
+var cellDescricaoG = linhaG.insertCell(1);
+var cellValorG = linhaG.insertCell(2);
+
+cellCodigoG.innerHTML = qtdlLinhasG;
+cellDescricaoG.innerHTML = descrição;
+cellValorG.innerHTML = valor;
+
+
+var cellCodigoG = qtdlLinhasG;
+var cellDescricaoG = descrição;
+var cellValorG = valor;
+var geracao = new Object();
+geracao.codigo = qtdlLinhasG;
+geracao.descrição = descrição;
+geracao.valor =  valor;
+var jm = JSON.stringify(geracao);
+var ls = window.localStorage;
+ls.setItem("geração", jm);
+
+   update();
+
+}
+
+function update(){
+    var localStorage = JSON.parse(geração);
+    localStorage.getItem(geração);
+}   
+
+
+
+
 
 // tabela impostos//
 function cadImposto(descrição, valor) {
         imposto = document.getElementById("tbImpostos");    
         var qtdlLinhas = imposto.rows.length;
         var linha = imposto.insertRow(qtdlLinhas);
-
+        
+    
     var cellCodigo = linha.insertCell(0);
     var cellDescricao = linha.insertCell(1);
     var cellValor = linha.insertCell(2);
@@ -25,6 +66,7 @@ function cadImposto(descrição, valor) {
     cellDescricao.innerHTML = descrição;
     cellValor.innerHTML = valor;
     
+    preencheCamposForm();
 
     var cellCodigo = qtdlLinhas;
     var cellDescricao = descrição;
@@ -36,8 +78,8 @@ function cadImposto(descrição, valor) {
     var jm = JSON.stringify(imposto);
     var ls = window.localStorage;
     ls.setItem("imposto", jm);
+}
 
-    }
 
 
     // tabela premissas//
@@ -67,32 +109,6 @@ ls.setItem("premissa", jm);
 }
 
 
-// tabela geração//
-function cadGeracao(descrição, valor) {
-    geracao = document.getElementById("tbGeracao");    
-    var qtdlLinhasG = geracao.rows.length;
-    var linhaG = geracao.insertRow(qtdlLinhasG);
-
-var cellCodigoG = linhaG.insertCell(0);
-var cellDescricaoG = linhaG.insertCell(1);
-var cellValorG = linhaG.insertCell(2);
-
-cellCodigoG.innerHTML = qtdlLinhasG;
-cellDescricaoG.innerHTML = descrição;
-cellValorG.innerHTML = valor;
-
-var cellCodigoG = qtdlLinhasG;
-var cellDescricaoG = descrição;
-var cellValorG = valor;
-var geracao = new Object();
-geracao.codigo = qtdlLinhasG;
-geracao.descrição = descrição;
-geracao.valor =  valor;
-var jm = JSON.stringify(geracao);
-var ls = window.localStorage;
-ls.setItem("geração", jm);
-}
-
 
 // tabela despesas fixas//
 function cadFixas(descrição, valor) {
@@ -103,10 +119,12 @@ function cadFixas(descrição, valor) {
 var cellCodigoF = linhaF.insertCell(0);
 var cellDescricaoF = linhaF.insertCell(1);
 var cellValorF = linhaF.insertCell(2);
+cellValorK = linhaF.insertCell(3);
 
 cellCodigoF.innerHTML = qtdlLinhasF;
 cellDescricaoF.innerHTML = descrição;
 cellValorF.innerHTML = valor;
+cellValorK.innerHTML = cellValorF.innerHTML / txtValorP.value
 
 var cellCodigoF = qtdlLinhasF;
 var cellDescricaoF = descrição;
@@ -117,7 +135,7 @@ fixa.descrição = descrição;
 fixa.valor =  valor;
 var jm = JSON.stringify(fixa);
 var ls = window.localStorage;
-ls.setItem("despesas fixas", jm);
+ls.setItem("desesas fixas", jm);
 }
 
 
@@ -153,19 +171,22 @@ function cadInvestimentos(descrição, valor, depreciação,) {
     investimento = document.getElementById("tbInvestimentos");    
     var qtdlLinhasI = investimento.rows.length;
     var linhaI = investimento.insertRow(qtdlLinhasI);
+    
 
 var cellCodigoI = linhaI.insertCell(0);
 var cellDescricaoI = linhaI.insertCell(1);
 var cellValorI = linhaI.insertCell(2);
 var cellDepreciação = linhaI.insertCell(3);
 var cellValorM = linhaI.insertCell(4);
-
+var cellValorKwh = linhaI.insertCell(5);
 
 cellCodigoI.innerHTML = qtdlLinhasI;
 cellDescricaoI.innerHTML = descrição;
 cellValorI.innerHTML = valor;
 cellDepreciação.innerHTML  = depreciação;
 cellValorM.innerHTML = cellValorI.innerHTML / cellDepreciação.innerHTML;
+cellValorKwh.innerHTML = cellValorM.innerHTML / txtValorP.value;
+
 
 var cellCodigoI = qtdlLinhasI;
 var cellDescricaoI = descrição;
