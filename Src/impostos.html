@@ -1,250 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Impostos</title>
-    <link rel="stylesheet" href="impostos.css"/>
-</head>
-<body>
-   <!-- MENU SUPERIOR -->
-    <nav class="navbar">
-        <div class="navbar__container">
-          <a href="#home" id="navbar__logo"></a>
-          <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span> <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-          <ul class="navbar__menu">
-            <li class="navbar__item">
-              <a href="#geração" class="navbar__links" id="geração">Geração de preço</a>
-            </li>
-            <li class="navbar__item">
-              <a href="#impostos" class="navbar__links" id="impostos">Impostos</a>
-            </li>
-            <li class="navbar__item">
-              <a href="#premissas" class="navbar__links" id="premissas"
-                >Premissas</a
-              >
-            </li>
-            <li class="navbar__item">
-              <a href="#fixas" class="navbar__links" id="fixas">Despesas fixas</a>
-            </li>
-            <li class="navbar__item">
-              <a href="variáveis" class="navbar__links" id="variáveis">Despesas variáveis</a>
-            </li>
-            <li class="navbar__item">
-              <a href="investimentos" class="navbar__links" id="investimentos">Investimentos</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- GERAÇÃO DE PREÇO--> 
-<div class="geração" id="geração ">
-  <div>
-    <p>Geração de preço</p>
-  </div>
-  <div id="dGrid">
-    <table id="tbGeracao" border="1">
-        <thead>
-            <tr>
-                <th>Código</th>
-                <th>Descrição</th>
-                <th>Valor</th>
-                <th>Preço de venda</th>
-            </tr>
-        </thead>
-      </table>
-</div>
-<br>
-<div>
-<div id="form">
-  <label type="text" class="form-control" id="txtCodigoG" readonly>
-  <input type="text"  id="txtDescricaoG" placeholder="Descrição" required> 
-  <input type="text"  id="txtValorG" placeholder="Valor" required>
-  <label type="text" class="form-control" id="PreçoV" readonly> 
-</div>
-<tr>
-  <td>
-    <button type="button" id="inserir" onclick="cadGeracao(txtDescricaoG.value, txtValorG.value)"> Inserir
-    </button>
-<button type="button" id="excluir" onclick="delRegistro()"> Excluir </button>
-</td>
-</tr>
-</div>
-</div>
-           <!-- IMPOSTOS-->
-     <div class="impostos" id="impostos">
-      <div>
-        <p>Impostos</p>
-      </div>
-      <div id="dGrid">
-        <table id="tbImpostos" border="1">
-            <thead>
-                <tr>
-                    <th>Código</th>
-                    <th>Descrição</th>
-                    <th>Valor (%)</th>
-                </tr>
-            </thead>
-          </table>
-  </div>
-  <br>
-  <div>
-    <div id="form">
-      <label type="text" class="form-control" id="txtCodigo" readonly>
-      <input type="text"  id="txtDescricao" placeholder="Descrição" required> 
-      <input type="text"  id="txtValor" placeholder="Valor" required> 
-  </div>
-    <tr>
-      <td>
-        <button type="button" id="inserir" onclick="cadImposto(txtDescricao.value, txtValor.value)"> Inserir
-<button type="button" id="excluir" onclick="delRegistro()"> Excluir </button>
-  </td>
-  </tr>
-  </div>
-    </div>
-     <!-- PREMISSAS-->
-     <div class="premissas" id="premissas">
-      <div>
-        <p>Premissas</p>
-      </div>
-      <div id="dGrid">
-        <table id="tbPremissas" border="1">
-            <thead>
-                <tr>
-                    <th>Código</th>
-                    <th>Descrição</th>
-                    <th>Valor</th>
-                </tr>
-            </thead>
-          </table>
-  </div>
-  <br>
-  <div>
-    <div id="form">
-      <label type="text" class="form-control" id="txtCodigoP" readonly>
-      <input type="text"  id="txtDescricaoP" placeholder="Descrição" required> 
-      <input type="text"  id="txtValorP" placeholder="Valor" required> 
-  </div>
-    <tr>
-      <td>
-        <button type="button" id="inserir" onclick="cadPremissas(txtDescricaoP.value, txtValorP.value)"> Inserir
-        </button>
-<button type="button" id="excluir" onclick=""> Excluir </button>
-  </td>
-  </tr>
-  </div>
-    </div>
-   <!-- DESPESAS FIXAS--> 
-   <div class="despesasf" id="despesasf">
-    <div>
-      <p>Despesas fixas</p>
-    </div>
-    <div id="dGrid">
-      <table id="tbFixas" border="1">
-          <thead>
-              <tr>
-                  <th>Código</th>
-                  <th>Descrição</th>
-                  <th>Valor</th>
-                  <th>Valor por kwh</th>
-              </tr>
-          </thead>
-        </table>
-</div>
-<br>
-<div>
-  <div id="form">
-    <label type="text" class="form-control" id="txtCodigoF" readonly>
-    <input type="text"  id="txtDescricaoF" placeholder="Descrição" required> 
-    <input type="text"  id="txtValorF" placeholder="Valor" required> 
-    <label type="text" class="form-control" id="txtValork" readonly>
-</div>
-  <tr>
-    <td>
-      <button type="button" id="inserir" onclick="cadFixas(txtDescricaoF.value, txtValorF.value)"> Inserir
-      </button>
-<button type="button" id="excluir" onclick=""> Excluir </button>
-</td>
-</tr>
-</div>
-  </div>
-  <!-- DESPESAS VARIÁVEIS--> 
-  <div class="despesasv" id="despesasv">
-    <div>
-      <p>Despesas variáveis</p>
-    </div>
-    <div id="dGrid">
-      <table id="tbVariaveis" border="1">
-          <thead>
-              <tr>
-                  <th>Código</th>
-                  <th>Descrição</th>
-                  <th>Valor</th>
-              </tr>
-          </thead>
-        </table>
-</div>
-<br>
-<div>
-  <div id="form">
-    <label type="text" class="form-control" id="txtCodigoV" readonly>
-    <input type="text"  id="txtDescricaoV" placeholder="Descrição" required> 
-    <input type="text"  id="txtValorV" placeholder="Valor" required> 
-</div>
-  <tr>
-    <td>
-      <button type="button" id="inserir" onclick="cadVariaveis(txtDescricaoV.value, txtValorV.value)"> Inserir
-      </button>
-<button type="button" id="excluir" onclick=""> Excluir </button>
-</td>
-</tr>
-</div>
-  </div>
- <!-- INVESTIMENTOS-->
- <div class="investimentos" id="investimentos">
-  <div>
-    <p>Investimentos</p>
-  </div>
-  <div id="dGrid">
-    <table id="tbInvestimentos" border="1">
-        <thead>
-            <tr>
-                <th>Código</th>
-                <th>Descrição</th>
-                <th>Valor</th>
-                <th>Depreciação</th>
-                <th class="calculo">Valor por mês</th>
-                <th class="calculo">Valor Kwh</th>
-            </tr>
-        </thead>
-      </table>
-</div>
-<br>
-<div>
-<div id="form">
-  <label type="text" class="form-control" id="txtCodigoI" readonly>
-  <input type="text"  id="txtDescricaoI" placeholder="Descrição" required> 
-  <input type="number"  id="txtValorI" placeholder="Valor" required>
-  <input type="number"  id="txtDepreciação" placeholder="Depreciação" required>
-  <label type="number"  id="txtValorM" readonly>
-  <label type="number"  id="txtValorKwh" readonly>
-  </div>
-<tr>
-  <td>
-    <button type="button" id="inserir" onclick="cadInvestimentos(txtDescricaoI.value, txtValorI.value, txtDepreciação.value,)"> Inserir
-    </button>
-<button type="button" id="excluir" onclick="delRegistro()"> Excluir </button>
-</td>
-</tr>
-</div>
-</div>
 
-    <script src="impostos.js"></script>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrada de Dados</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="C:\Users\Admin\OneDrive\Área de Trabalho\projeto 11\pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_06-main\Src\entDados.js"></script>
+</head>
+
+<body>
+    <div id="main-container">
+        <h1>Cadastro de informes:</h1>
+        <div class="label-float">
+            <div>
+                <div>
+                    <label id="labelImposto" for="imposto">Impostos:</label>
+                    <input type="text" id="imposto" placeholder="">
+                    <br>
+                    <div>
+                        <label id="labelFixas" for="fixas"> Despepesas fixas ($):</label>
+                        <input type="text" id="despFixas" placeholder="">
+                    </div>
+                    <br>
+                    <div>
+                        <label id="labelvariaveis" for="variaveis">Despesas variaveis (%):</label>
+                        <input type="text" id="despVariaveis" placeholder="">
+                    </div>
+                    <br>
+                    <div>
+                        <label id="labelestVenda" for="estVenda"> Estimativa de venda por mês ($):</label>
+                        <input type="text" id="estVenda" placeholder="">
+                    </div>
+                    <br>
+                    <div>
+                        <label id="labelestimativa" for="investiva"> Investimento total ($):</label>
+                        <input type="text" id="estimativa" placeholder="">
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label id="labelkw" for="kw"> Preço kw/h ($):</label>
+                        <input type="text" id="kw" placeholder="">
+                        <br>
+                    </div>
+                    <br>
+                </div>
+                <div class="label-btn1">
+                    <div></div>
+                    <button id="btn1" onclick="gravar();">gravar</button>
+                </div>
+                <br>
+                <div class="label-btn2">
+                    <button id="btn2" onclick="apagar();">apagar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </body>
-<footer>
-  <div class="footer__container">     
-    </section>
-  </div>
-</footer>
-</html>
