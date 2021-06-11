@@ -53,10 +53,6 @@ button{
         background-color: #6FFC58;
         color: #FFF;
 }
-#btn2:hover{
-    background-color:#FC5858 ;
-        color: #FFF;
-}
 footer {
     background: #4CA1AF;
     background: -webkit-linear-gradient(to right, #4CA1AF, #C4E0E5);
