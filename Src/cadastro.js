@@ -82,7 +82,7 @@ function salvar() {
     ls.setItem("usuarios", jm);
      //redirecionamento para tela de impostos//
 setTimeout(()=>{
-  window.location.href = 'impostos.html'
+  window.location.href = 'entrada.html'
 }, 1000) 
 }
 //tela login//
@@ -95,9 +95,9 @@ function logar(){
   if (email.value == usuarios.email && password.value == usuarios.password){
     localStorage.setItem("acesso",true);
 
-    window.location.href = "impostos.html";
+    window.location.href = "entrada.html";
   }else {
-    alert("Usuario não encontrado");
+    alert("Usuario não encontrado")
   }
 
 }
