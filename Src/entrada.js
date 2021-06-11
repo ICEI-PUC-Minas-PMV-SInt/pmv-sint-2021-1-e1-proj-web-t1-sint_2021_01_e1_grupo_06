@@ -61,10 +61,6 @@ function gravar() {
   }
 
 
-function apagar() {
-    alert("apagando")
-
-}
 // tela geração //
 function voltar(){
   window.location.href = "entrada.html"
