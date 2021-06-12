@@ -9,50 +9,33 @@
 </head>
 <body>
     <nav class="navbar"></nav>
-    <h1>
-        <p> Preço de venda Kwh (R$)<p>
-        <p id="preço"></p> 
-    </h1>
+    <div id="fPreços">
+        <form>
+            <div class="form">
+                <label for="txtMargem">Margem líquida</label>
+                <input type="text" id="margem" >
+            </div>
+            <div class="form">
+                <label for="txtPreço">Preço de venda Kwh (R$)</label>
+                <p id="preço"> </p>
+            </div>
+        </form>
+    </div>
     <br><br><br>
     <div id="main">
-    <div class="teste">
-        <p class="label">Impostos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . % </p>
-        <p id="imposto" class="input"></p>
-        </div>
-        <br><br>
-        <div class="teste">
-        <p> Despesas fixas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $<p>
-        <p id="despFixas">
-        </div>
-        <br><br>
-        <div class="teste">
-        <p >Despesas variaveis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . % <p>
-        <p id="despVariaveis">
-        </div>
-        <br><br>
-        <div class="teste">
-        <p > Estimativa de venda (Kwh). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . <p>
-        <p id="estVenda">
-        </div>
-        <br><br>
-        <div class="teste">
-        <p> Investimento total . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $<p>
-        <p id="investimento">
-        </div>
-        <br><br>
-        <div class="teste">
-        <p> Custo kwh . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $<p>
-        <p id="kwh">
-        </div>
-        <br><br>
-        <div class="teste">
-        <p > Margem líquida . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . % <p>
-        <p id="Margem">
-        </div>
+        <table id="tbPreços" >
+            <thead>
+                <tr>
+                    <th scope="col">Margem líquida</th>
+                    <th scope="col">Preço de venda</th>
+                </tr>
+            </thead>
+        </table>
     </div>
-    <br><br>
-    <div class="label-btn1">
-        <button id="btn1" onclick="voltar()">Voltar</button>
+    <br><br><br>
+    <div class="label-btn">
+        <button id="btn1" onclick="calcular()">Calcular</button>
+        <button id="btn2" onclick="apagar()">Apagar tudo</button>
     </div>
 </body>
 <br>
@@ -61,14 +44,4 @@
       </section>
     </div>
 </footer>
-<script>
-    document.getElementById("imposto").innerHTML = localStorage.imposto;
-    document.getElementById("despFixas").innerHTML = localStorage.despFixas ;
-    document.getElementById("despVariaveis").innerHTML = localStorage.despVariaveis;
-    document.getElementById("estVenda").innerHTML = localStorage.estVenda;
-    document.getElementById("investimento").innerHTML = localStorage.investimento;
-    document.getElementById("kwh").innerHTML = localStorage.custo ;
-    document.getElementById("Margem").innerHTML = localStorage.margem;
-    document.getElementById("preço").innerHTML = localStorage.Preço;
-</script>
 </html>
