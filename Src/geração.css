@@ -14,32 +14,36 @@
     position: sticky;
     top: 0;
   }
-  h1{
-   font-size: 40px;
-   text-align: center;
-   margin-top: 40px;
-   font-weight: lighter;
-  }
   #preço{
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: 200px;
-    padding-top: 50px;
     font-weight: bold;
+    font-size: 30px;
+    height: 40px;
   }
+  #fPreços{
+    margin-left: 90px;
+    margin-top: 40px;
+  }
+label {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 90px;
+    display: inline flex;
+}
+input{
+  outline:solid 1px #000;
+  margin-left: 100px;
+  height: 30px;
+  width: 300px;
+  font-size: 20px;
+}
   #main{
     background-color:#C4E0E5 ;
     outline:solid 1px #000;
-    margin-left: 290px;
     width: fit-content;
-    line-height: 30px;
     font-size: 24px;
-    padding: 10px 40px;
+    display: inline-flex;
+    margin-left: 530px;
   }
- .teste{
-   display: inline-flex;
- }
 button{
      background-color: #C4E0E5;
      color:#000;
@@ -53,14 +57,19 @@ button{
      font-size: 18px;
      border-bottom: 2px solid #323232;
      padding: 10px;
-     margin-left: 530px;
+     margin-left: 245px;
+     margin-top: 60px;
      display: inline-flex;
      outline: none;
      transition: all .4s ease-out;
 }
 #btn1:hover{
-    background-color:#58DEFC ;
-        color: #FFF;
+  background-color:#58DEFC ;
+  color: #FFF;
+}
+#btn2:hover{
+  background-color:#FF5C46 ;
+  color: #FFF;
 }
 footer {
   background: #4CA1AF;
