@@ -25,6 +25,87 @@
   <th> criterio de exito </th>
   <th>                       </th>
  </tr>
+ </table
+ 
+ <table>
+ <tr>
+  <th> caso teste </th>
+  <th> CT1 teste de cadastro </th>
+ </tr>
+ 
+ <tr>
+  <th> requisitos associados </th>
+  <th>                       </th>
+  </tr>
+  
+ <tr>
+  <th> objetivo do teste </th>
+  <th>                       </th>
+ </tr>
+ 
+ <tr>
+  <th> sequência </th>
+  <th>                       </th>
+ </tr>
+ 
+ <tr>
+  <th> criterio de exito </th>
+  <th>                       </th>
+ </tr>
+ </table>
+ 
+ <table>
+ <tr>
+  <th> caso teste </th>
+  <th> CT1 teste de cadastro </th>
+ </tr>
+ 
+ <tr>
+  <th> requisitos associados </th>
+  <th>                       </th>
+  </tr>
+  
+ <tr>
+  <th> objetivo do teste </th>
+  <th>                       </th>
+ </tr>
+ 
+ <tr>
+  <th> sequência </th>
+  <th>                       </th>
+ </tr>
+ 
+ <tr>
+  <th> criterio de exito </th>
+  <th>                       </th>
+ </tr>
+ </table>
+ 
+ <table>
+ <tr>
+  <th> caso teste </th>
+  <th> CT1 teste de cadastro </th>
+ </tr>
+ 
+ <tr>
+  <th> requisitos associados </th>
+  <th>                       </th>
+  </tr>
+  
+ <tr>
+  <th> objetivo do teste </th>
+  <th>                       </th>
+ </tr>
+ 
+ <tr>
+  <th> sequência </th>
+  <th>                       </th>
+ </tr>
+ 
+ <tr>
+  <th> criterio de exito </th>
+  <th>                       </th>
+ </tr>
  </table>
 
 Comente sobre as ferramentas de testes utilizadas.
