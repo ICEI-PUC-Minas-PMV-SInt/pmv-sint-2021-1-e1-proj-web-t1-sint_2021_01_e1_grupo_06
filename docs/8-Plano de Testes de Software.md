@@ -11,8 +11,8 @@
     <ul>
     <li> RF-01 Deve apresentar os dados referentes a login e cadastro </li
     </ul>
-     <ul>
-    <li> RF-02 O site deve salvar o dados e realizar o login </li
+    <ul>
+      <li> RF-02 O site deve salvar o dados e realizar o login </li>
     </ul>
   </th>
   </tr>
