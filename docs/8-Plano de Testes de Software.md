@@ -2,7 +2,8 @@
 
 |caso teste           | CT-01 Login e cadastro                                |                     
 |---------------------|-----------------------------------------------------------------|
-|Requisitos associados| RF-01- O site deve apresentar cadastro e login na página inicial   RF-02 O site deve realizar Login e cadastro|                          
+|Requisitos associados| RF-01- O site deve apresentar cadastro e login na página inicial                          
+                        RF-02 O site deve realizar Login e cadastro|                          
 |Objetivo do teste    |                                                                |
 |Sequência            |                                                                |
 | Criterio de êxito   |                                                                |
