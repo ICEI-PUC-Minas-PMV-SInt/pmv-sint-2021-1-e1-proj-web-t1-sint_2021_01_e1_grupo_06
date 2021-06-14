@@ -1,11 +1,11 @@
 # Plano de Testes de Software
 
 |caso teste           | CT-01 Visualizar página inicial|                     |
-|---------------------|--------------------------------|
-|Requisitos associados| RF01- O site deve apresentar informações, cadastro e login na págian inicial|                          |
-|Objetivo do teste    |                           |
-|Sequência            |                           |
-| Criterio de êxito   |                           |
+|---------------------|----------------------------------------------------------------|
+|Requisitos associados| RF01- O site deve apresentar cadastro e login na págian inicial|                          |
+|Objetivo do teste    |                                                                |
+|Sequência            |                                                                |
+| Criterio de êxito   |                                                                |
 
 
 |caso teste           | CT-01                     |
