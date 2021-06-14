@@ -68,5 +68,6 @@ function calcular(){
 } 
 //função para apagar dados do localStorage e voltar para tela principal//
   function apagar(){
+    localStorage.clear()
     window.location.href = "entrada.html"
   }
