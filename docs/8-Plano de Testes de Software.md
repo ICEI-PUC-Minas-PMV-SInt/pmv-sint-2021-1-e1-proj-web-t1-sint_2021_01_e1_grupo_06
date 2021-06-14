@@ -9,14 +9,21 @@
  <tr>
   <th> requisitos associados </th>
   <th>                       </th>
-  <tr>
+  </tr>
+  
+ <tr>
   <th> objetivo do teste </th>
+  <th>                       </th>
  </tr>
+ 
  <tr>
   <th> sequência </th>
+  <th>                       </th>
  </tr>
+ 
  <tr>
   <th> criterio de exito </th>
+  <th>                       </th>
  </tr>
  </table>
 
