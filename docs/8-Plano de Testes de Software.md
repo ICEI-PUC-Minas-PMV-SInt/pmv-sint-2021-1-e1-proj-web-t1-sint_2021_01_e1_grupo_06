@@ -10,7 +10,10 @@
   <tr>
   <th> objetivo do teste </th>
  </tr>
+ <tr>
   <th> sequência </th>
+ </tr>
+ <tr>
   <th> criterio de exito </th>
  </tr>
  </table>
