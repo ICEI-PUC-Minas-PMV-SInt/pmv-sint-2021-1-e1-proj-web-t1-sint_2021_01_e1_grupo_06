@@ -81,7 +81,7 @@ footer {
     background: #4CA1AF;
     background: -webkit-linear-gradient(to right, #4CA1AF, #C4E0E5);
     background: linear-gradient(to right,#4CA1AF, #C4E0E5 );
-    height: 30px;
+    height: 35px;
     display: flex;
     position: sticky;
     width: 100%;
