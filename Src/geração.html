@@ -15,7 +15,7 @@
                 <label for="txtMargem">Margem líquida</label>
                 <input type="text" id="margem" >
             </div>
-            <div class="form">
+            <div class="form2">
                 <label for="txtPreço">Preço de venda Kwh (R$)</label>
                 <p id="preço"> </p>
             </div>
@@ -26,6 +26,7 @@
         <table id="tbPreços" >
             <thead>
                 <tr>
+                    <th scope="col">Código</th>
                     <th scope="col">Margem líquida</th>
                     <th scope="col">Preço de venda</th>
                 </tr>
@@ -34,7 +35,7 @@
     </div>
     <br><br><br>
     <div class="label-btn">
-        <button id="btn1" onclick="calcular()">Calcular</button>
+        <button id="btn1" onclick="calcular(),cadPessoa()">Calcular</button>
         <button id="btn2" onclick="apagar()">Apagar tudo</button>
     </div>
 </body>
