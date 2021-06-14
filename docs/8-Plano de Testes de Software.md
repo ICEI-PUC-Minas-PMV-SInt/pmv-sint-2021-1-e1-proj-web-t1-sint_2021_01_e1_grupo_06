@@ -11,6 +11,8 @@
   <th> 
    <ul>
    <li> RF-01 O site deve apresentar a pagína inicial</li>
+   </ul>
+   <ul>
    <li> RF-02 A pagina deve conter informação do site, login e cadstro </li>
    </ul>
     
