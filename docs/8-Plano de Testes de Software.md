@@ -7,7 +7,9 @@
  </tr>
  <tr>
   <th> requisitos associados </th>
+  <tr>
   <th> objetivo do teste </th>
+ </tr>
   <th> sequência </th>
   <th> criterio de exito </th>
  </tr>
