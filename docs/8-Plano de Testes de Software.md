@@ -5,8 +5,10 @@
   <th> caso teste </th>
   <th> CT1 teste de cadastro </th>
  </tr>
+ 
  <tr>
   <th> requisitos associados </th>
+  <th>                       </th>
   <tr>
   <th> objetivo do teste </th>
  </tr>
