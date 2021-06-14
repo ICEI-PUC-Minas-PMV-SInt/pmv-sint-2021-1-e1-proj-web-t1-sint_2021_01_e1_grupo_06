@@ -29,12 +29,12 @@ function calcular(){
     if (margem = true){
     var jsonEntrada = window.localStorage.getItem('entrada');
     var entrada = JSON.parse(jsonEntrada);
-    var calculo = entrada.imposto
+    var calculo = ((ls.investimento + ls.despFixas) / ls.estVenda + ls.custo) / (1 - (ls.imposto + ls.despFixas + ls.margem) / 100);
 
     var pc = JSON.stringify(parseFloat(calculo))
     var ls = window.localStorage
     ls.setItem("Preço", pc)
 
-    document.getElementById("preço").innerHTML = localStorage.Preço
+    document.getElementById("preço").innerHTML = pc;
   }
 }
