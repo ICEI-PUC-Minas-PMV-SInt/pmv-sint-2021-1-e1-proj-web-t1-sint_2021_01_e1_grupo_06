@@ -2,7 +2,18 @@
 
 <table>
  <tr>
-  <th> nome </th>
+  <th> caso teste </th>
+  <th> requisitos associados </th>
+  <th> objetivo do teste </th>
+  <th> sequência </th>
+  <th> criterio de exito </th>
+ </tr>
+ <tr>
+  <th> CT1 teste de cadastro </th>
+  <th>                       </th>
+  <th>                       </th>
+  <th>                       </th>
+  <th>                       </th>
  </tr>
  </table>
 
