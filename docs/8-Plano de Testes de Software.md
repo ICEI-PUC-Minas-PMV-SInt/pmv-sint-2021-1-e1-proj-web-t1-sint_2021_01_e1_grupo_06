@@ -24,13 +24,17 @@
    <th> 
      <li>  1) Entrar á pagína no navegador  </li>
       <li> 2) Realizar o cadastro </li>
-      <li><th> 3) Efetuar o login </li>
+      <li> 3) Efetuar o login </li>
   </th>
   </tr>
    
     <tr>
   <th> Critérios de Êxito</th>
-   <th>          </th>
+   <th> 
+  <li> Deve efetuar varios cadastros e login</li>
+  <li> Dados foram salvos </li>
+  <li> O direcionadado as páginas correspondentes após login e cadastro</li>
+</th>
   </tr>
   
   
