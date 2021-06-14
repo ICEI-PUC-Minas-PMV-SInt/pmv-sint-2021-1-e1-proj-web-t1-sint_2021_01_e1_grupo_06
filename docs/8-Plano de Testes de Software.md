@@ -6,7 +6,6 @@
   <th> CT1 teste de cadastro </th>
  </tr>
  <tr>
-  <th> CT1 teste de cadastro </th>
   <th> requisitos associados </th>
   <th> objetivo do teste </th>
   <th> sequência </th>
