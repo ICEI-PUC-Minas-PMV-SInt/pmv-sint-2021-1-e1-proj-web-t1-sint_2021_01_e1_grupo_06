@@ -7,18 +7,22 @@
   </tr>
   <tr>
   <th> Requisitos associados </th>
+  <th>          </th>
   </tr>
   
    <tr>
   <th> Objetivo do Teste </th>
+   <th>          </th>
   </tr>
   
    <tr>
   <th> Sequência </th>
+   <th>          </th>
   </tr>
    
     <tr>
   <th> Critérios de Êxito</th>
+   <th>          </th>
   </tr>
   
   
