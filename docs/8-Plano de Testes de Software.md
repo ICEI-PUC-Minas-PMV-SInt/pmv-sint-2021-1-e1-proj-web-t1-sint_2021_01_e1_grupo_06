@@ -10,15 +10,15 @@
   </tr>
   
    <tr>
-  <th> Requisitos associados </th>
+  <th> Objetivo do Teste </th>
   </tr>
   
    <tr>
-  <th> Requisitos associados </th>
+  <th> Sequência </th>
   </tr>
    
     <tr>
-  <th> Requisitos associados </th>
+  <th> Critérios de Êxito</th>
   </tr>
   
   
