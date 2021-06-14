@@ -1,7 +1,9 @@
 # Plano de Testes de Software
 
 <table>
- <tr> teste </tr>
+ <tr>
+  <th> nome </th>
+ </tr>
  </table>
 
 Comente sobre as ferramentas de testes utilizadas.
