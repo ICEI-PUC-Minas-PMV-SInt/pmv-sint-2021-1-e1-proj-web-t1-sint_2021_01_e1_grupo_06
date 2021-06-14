@@ -3,12 +3,16 @@
 <table>
  <tr>
   <th> caso teste </th>
-  <th> CT1 teste de cadastro </th>
+  <th> CT1 visualizar pagina inicial do teste </th>
  </tr>
  
  <tr>
   <th> requisitos associados </th>
-  <th>                       </th>
+  <th> 
+   <li> RF-01 O site deve apresentar a pagína inicial do site</li>
+   <li> RF-02 A pagina deve conter informação do site e o login e cadstro </li>
+    
+  </th>
   </tr>
   
  <tr>
