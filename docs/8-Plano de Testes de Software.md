@@ -7,9 +7,11 @@
   </tr>
   <tr>
   <th> Requisitos associados </th>
-  <th> 
+  <th>
+    <ui>
     <li> RF-01 Deve apresentar os dados referentes a login e cadastro </li>
-    <li> RF-02 O site deve salvar o dados e realizar o login </li>
+    <li> RF-02 O site deve salvar o dados e realizar o login </li
+    </ui>
   </th>
   </tr>
   
