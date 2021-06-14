@@ -5,14 +5,14 @@
     <th> caso teste</th>
     <th> CT-02 Login e Cadastro    </TH>
   </tr>
+  
   <tr>
   <th> Requisitos associados </th>
-  <ul>
   <th>
       <li> RF-01 Deve apresentar os dados referentes a login e cadastro </li>
       <li> RF-02 O site deve salvar o dados e realizar o login </li>
   </th>
-  </ul>
+ 
   </tr>
   
    <tr>
