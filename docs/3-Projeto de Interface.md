@@ -15,11 +15,10 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Wireframes
 
-![image](https://user-images.githubusercontent.com/81269914/118338364-5bc74680-b4ec-11eb-8eba-d7c9f341075a.png)
-![image](https://user-images.githubusercontent.com/81269914/118338172-d17ee280-b4eb-11eb-9df4-05c70e5adf2a.png)
-![image](https://user-images.githubusercontent.com/81269914/118338480-a8128680-b4ec-11eb-9746-9415cbf5f12c.png) 
-![image](https://user-images.githubusercontent.com/81269914/117554915-080eb600-b031-11eb-9bb3-42851e627490.png) ![image](https://user-images.githubusercontent.com/81269914/117554921-11981e00-b031-11eb-94e8-89548e15e7ac.png)
-![image](https://user-images.githubusercontent.com/81269914/117554925-19f05900-b031-11eb-8f5e-1150dd9f0e2d.png) ![image](https://user-images.githubusercontent.com/81269914/117554931-22e12a80-b031-11eb-872b-133b00747f48.png)
-![image](https://user-images.githubusercontent.com/81269914/117554942-32f90a00-b031-11eb-9603-9d603d87a043.png) ![image](https://user-images.githubusercontent.com/81269914/117554945-3ab8ae80-b031-11eb-97bc-e639a881aa24.png)
+![image](https://user-images.githubusercontent.com/81269914/121958213-ceb91c80-cd39-11eb-806f-2385c8fccb64.png)
+![image](https://user-images.githubusercontent.com/81269914/121957368-ada3fc00-cd38-11eb-9a4f-32f7bc14365e.png)
+![image](https://user-images.githubusercontent.com/81269914/121958061-9a456080-cd39-11eb-9cbb-830fa1e5e2ec.png)
 
+![image](https://user-images.githubusercontent.com/81269914/121958689-5010af00-cd3a-11eb-96f4-81d695ef9ea4.png)
+![image](https://user-images.githubusercontent.com/81269914/121959012-9d8d1c00-cd3a-11eb-923a-4f575bf2a5ba.png)
 
