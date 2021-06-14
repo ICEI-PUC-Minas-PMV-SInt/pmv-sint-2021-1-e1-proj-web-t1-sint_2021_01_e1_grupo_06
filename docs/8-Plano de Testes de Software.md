@@ -9,8 +9,10 @@
  <tr>
   <th> requisitos associados </th>
   <th> 
-   <li> RF-01 O site deve apresentar a pagína inicial do site</li>
-   <li> RF-02 A pagina deve conter informação do site e o login e cadstro </li>
+   <ul>
+   <li> RF-01 O site deve apresentar a pagína inicial</li>
+   <li> RF-02 A pagina deve conter informação do site, login e cadstro </li>
+   </ul>
     
   </th>
   </tr>
