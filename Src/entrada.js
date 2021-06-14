@@ -31,18 +31,25 @@ function calcular(){
     var calculo = (((Number(entrada.investimento) + Number(entrada.despFixas)) / Number(entrada.estVenda)) + Number(entrada.custo))/
     ( 1 - ((Number(entrada.imposto) + Number(entrada.despVariaveis) + Number(parseFloat(margem)))) / 100)
     //salvando no localStorage//
-    var venda = new Object();
-    venda.margem = parseFloat(margem);
-    venda.calculo = parseFloat(calculo);
-    var vd = JSON.stringify(venda);
-    var ls = window.localStorage;
-    ls.setItem("venda", vd);
-    //
-
-    document.getElementById("preço").innerHTML = calculo
+    var vd = {margem, calculo };
+    if (localStorage.getItem('venda') === null) {
+      // Adicionando um array com um objeto no localstorage
+      localStorage.setItem('venda', JSON.stringify([vd]));
+    } else {
+      // Copiando o array existente no localstorage e adicionando o novo objeto ao final.
+      localStorage.setItem(
+        'venda',
+        // O JSON.parse transforma a string em JSON novamente, o inverso do JSON.strigify
+        JSON.stringify([
+          ...JSON.parse(localStorage.getItem('venda')),
+          vd 
+        ])
+      );
     }
-  //colocando dados na tabela//
-  function cadPessoa() {
+          
+    //mostrando o preço de venda//
+    document.getElementById("preço").innerHTML = calculo
+    //inserindo margem e preço na tabela//
     if(localStorage.venda != []){
     var jsonVenda = window.localStorage.getItem("venda");
     var venda = JSON.parse(jsonVenda);
@@ -52,13 +59,14 @@ function calcular(){
 
     var cellCodigo = linha.insertCell(0);
     var cellMargem = linha.insertCell(1);
-    var cellVenda = linha.insertCell(2);
+    var cellCalculo = linha.insertCell(2);
   
     cellCodigo.innerHTML = qtdlLinhas;
-    cellMargem.innerHTML = venda.margem;
-    cellVenda.innerHTML = venda.calculo
+    cellMargem.innerHTML = margem;
+    cellCalculo.innerHTML = calculo;
   }
-}
+} 
+//função para apagar dados do localStorage e voltar para tela principal//
   function apagar(){
     window.location.href = "entrada.html"
   }
