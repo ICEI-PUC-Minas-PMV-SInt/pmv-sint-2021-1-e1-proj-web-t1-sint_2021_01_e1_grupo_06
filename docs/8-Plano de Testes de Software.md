@@ -1,6 +1,7 @@
 # Plano de Testes de Software
 
 |caso teste           | CT-01                     |
+|---------------------|---------------------------|
 |Requisitos associados|                           |
 |Objetivo do teste    |                           |
 |Sequência            |                           |
