@@ -93,8 +93,6 @@ function logar(){
   var usuarios = JSON.parse(jsonUsuarios);
 
   if (email.value == usuarios.email && password.value == usuarios.password){
-    localStorage.setItem("acesso",true);
-
     window.location.href = "entrada.html";
   }else {
     alert("Usuario não encontrado")
