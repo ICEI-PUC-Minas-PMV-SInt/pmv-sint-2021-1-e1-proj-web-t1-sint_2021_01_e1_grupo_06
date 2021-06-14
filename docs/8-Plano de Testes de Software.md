@@ -9,8 +9,43 @@
   <tr>
   <th> Requisitos associados </th>
   <th>
-      <li> RF-01 Deve apresentar os dados referentes a login e cadastro </li>
-      <li> RF-02 O site deve salvar o dados e realizar o login </li>
+    <li> RF-01 Deve apresentar o login e cadastro na página inicial do site </li>
+  </th>
+ 
+  </tr>
+  
+   <tr>
+  <th> Objetivo do Teste </th>
+   <th> Verificar se os dados foram cadastrados e se o login sendo realizado. </th>
+  </tr>
+  
+   <tr>
+  <th> Sequência </th>
+   <th> 
+     <li> <th> 1) Entrar á pagína no navegador </th> </li>
+      <li><th> 2) Realizar o cadastro  </th></li>
+      <li><th> 3) Efetuar o login </th></li>
+  </th>
+  </tr>
+   
+    <tr>
+  <th> Critérios de Êxito</th>
+   <th>          </th>
+  </tr>
+  
+  
+</table
+
+<table>
+  <tr>
+    <th> caso teste</th>
+    <th> CT-02 Login e Cadastro    </TH>
+  </tr>
+  
+  <tr>
+  <th> Requisitos associados </th>
+  <th>
+    <li> RF-01 Deve apresentar o login e cadastro na página iniciala do site </li>
   </th>
  
   </tr>
