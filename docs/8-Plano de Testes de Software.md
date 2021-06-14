@@ -25,7 +25,7 @@
   <th> criterio de exito </th>
   <th>                       </th>
  </tr>
- </table
+ </table>
  
  <table>
  <tr>
