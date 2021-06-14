@@ -7,6 +7,22 @@
 |Sequência            |                           |
 | Criterio de êxito   |                           |
 
+
+|caso teste           | CT-01                     |
+|---------------------|---------------------------|
+|Requisitos associados|                           |
+|Objetivo do teste    |                           |
+|Sequência            |                           |
+| Criterio de êxito   |                           |
+
+
+|caso teste           | CT-01                     |
+|---------------------|---------------------------|
+|Requisitos associados|                           |
+|Objetivo do teste    |                           |
+|Sequência            |                           |
+| Criterio de êxito   |                           |
+
 Comente sobre as ferramentas de testes utilizadas.
  
 > **Links Úteis**:
