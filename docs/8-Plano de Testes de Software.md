@@ -22,9 +22,9 @@
    <tr>
   <th> Sequência </th>
    <th> 
-     <li> <th> 1) Entrar á pagína no navegador </th> </li>
-      <li><th> 2) Realizar o cadastro  </th></li>
-      <li><th> 3) Efetuar o login </th></li>
+     <li>  1) Entrar á pagína no navegador  </li>
+      <li> 2) Realizar o cadastro </li>
+      <li><th> 3) Efetuar o login </li>
   </th>
   </tr>
    
