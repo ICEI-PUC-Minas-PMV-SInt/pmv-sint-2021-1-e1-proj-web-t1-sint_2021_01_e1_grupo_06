@@ -16,7 +16,7 @@
   
    <tr>
   <th> Objetivo do Teste </th>
-   <th> Verificar se os dados foram cadastrados e se o login sendo realizado. </th>
+   <th> Verificar se os dados foram cadastrados e se o login está sendo realizado. </th>
   </tr>
   
    <tr>
@@ -31,7 +31,7 @@
     <tr>
   <th> Critérios de Êxito</th>
    <th> 
-  <li> Deve efetuar varios cadastros e login</li>
+  <li> Varios cadastros e login efetuados com sucesso</li>
   <li> Dados foram salvos </li>
   <li> O direcionadado as páginas correspondentes após login e cadastro</li>
 </th>
@@ -43,34 +43,36 @@
 <table>
   <tr>
     <th> caso teste</th>
-    <th> CT-02 Login e Cadastro    </TH>
+    <th> CT-02 entrada de dados </TH>
   </tr>
   
   <tr>
   <th> Requisitos associados </th>
   <th>
-    <li> RF-01 Deve apresentar o login e cadastro na página iniciala do site </li>
+    <li> RF-02 O site deve mostrar todas as informações de entrada</li>
   </th>
  
   </tr>
   
    <tr>
   <th> Objetivo do Teste </th>
-   <th>          </th>
+   <th> Gravar as inforçaões </th>
   </tr>
   
    <tr>
   <th> Sequência </th>
-   <th>          </th>
+   <th>
+     <li> 1) simular as informações </li>
+     <li> 2) Gravar as informações  </li>
+  </th>
   </tr>
    
     <tr>
   <th> Critérios de Êxito</th>
-   <th>          </th>
+   <th> Todas os dados foram gravados corretamente </th>
   </tr>
-  
-  
 </table>
+ 
 Comente sobre as ferramentas de testes utilizadas.
  
 > **Links Úteis**:
