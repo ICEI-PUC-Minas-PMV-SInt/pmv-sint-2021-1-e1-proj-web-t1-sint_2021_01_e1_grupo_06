@@ -43,8 +43,7 @@
   <tr>
   <th> Requisitos associados </th>
   <tr>
-    <li> RF-02 O site deve mostrar todas as informações de entrada</li>
-  </th>
+    <th> RF-02 O site deve mostrar todas as informações de entrada</th>
  
   </tr>
   
