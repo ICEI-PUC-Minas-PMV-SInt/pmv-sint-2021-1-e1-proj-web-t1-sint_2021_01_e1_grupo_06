@@ -6,9 +6,9 @@
     <th> CT-02 Login e Cadastro    </TH>
   </tr>
   
-  <tr>
+ 
   <th> Requisitos associados </th>
-  <tr>
+  
     <li> RF-01 Deve apresentar o login e cadastro na página inicial do site </li>
   </th>
  
