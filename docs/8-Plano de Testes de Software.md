@@ -13,7 +13,7 @@
   
    <tr>
   <th> Objetivo do Teste </th>
-   <th> Verificar se os dados foram cadastrados e se o login está sendo realizado. </th>
+   <th> Verificar se os dados foram cadastrados e se o login está sendo realizado </th>
   </tr>
   
    <tr>
@@ -49,7 +49,7 @@
   
    <tr>
   <th> Objetivo do Teste </th>
-   <th> Gravar as inforçaões </th>
+   <th> Gravar as informações </th>
   </tr>
   
   <tr>
@@ -70,7 +70,7 @@
 
 <table>
   <tr>
-    <th> caso teste</th>
+    <th> caso teste 3</th>
     <th> CT-03 Geração de preço   </TH>
   </tr>
   
@@ -83,7 +83,7 @@
   <th> Objetivo do Teste </th>
    <th>
      <li>  Gerar preços de venda</li>
-     <li>  Simular preço alterando a margem de lucro. </li>
+     <li>  Simular preço alterando a margem de lucro </li>
      <li>  Apresentar as simulaçoes de preço de venda com a margem de lucro </li>
   </th>
   </tr>
@@ -91,9 +91,8 @@
    <tr>
   <th> Sequência </th>
    <th> 
-     <li>   Entrar na pagína geração de preço  </li>
+     <li>   Entrar na pagina geração de preço  </li>
       <li>  Simular varias margens de lucro </li>
-      <li>  Efetuar o login </li>
   </th>
   </tr>
     <tr>
