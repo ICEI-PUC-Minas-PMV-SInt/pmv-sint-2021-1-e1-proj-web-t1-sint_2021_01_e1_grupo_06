@@ -62,7 +62,7 @@
    
   <tr>
   <th> Critérios de Êxito</th>
-  <th> Todas os dados foram gravados corretamente </th>
+  <th> Todos os dados foram gravados corretamente </th>
   </tr>
 </table>
 
