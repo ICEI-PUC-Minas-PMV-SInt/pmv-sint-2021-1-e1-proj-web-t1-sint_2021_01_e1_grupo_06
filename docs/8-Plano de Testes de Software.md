@@ -6,12 +6,11 @@
     <th> CT-02 Login e Cadastro    </TH>
   </tr>
   
- 
+ <tr>
   <th> Requisitos associados </th>
   
     <li> RF-01 Deve apresentar o login e cadastro na página inicial do site </li>
   </th>
- 
   </tr>
   
    <tr>
@@ -27,7 +26,6 @@
       <li> 3) Efetuar o login </li>
   </th>
   </tr>
-   
     <tr>
   <th> Critérios de Êxito</th>
    <th> 
@@ -36,7 +34,6 @@
   <li> O direcionadado as páginas correspondentes após login e cadastro</li>
 </th>
   </tr>
-  
 </table>
 
 <table>
