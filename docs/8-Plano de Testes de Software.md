@@ -35,7 +35,6 @@
   
 </table>
 
-<l> </l>
 
 <table>
   <tr>
@@ -67,36 +66,41 @@
   </tr>
 </table>
 
+
+
 <table>
   <tr>
     <th> caso teste</th>
-    <th> CT-02 Login e Cadastro    </TH>
+    <th> CT-03 Geração de preço   </TH>
   </tr>
   
  <tr>
     <th> Requisitos associados </th>
-    <th> RF-01 Deve apresentar o login e cadastro na página inicial do site </th>
+    <th> RF-01 Deve apresentar o valor de preço, margem de lucro e simulações de preço </th>
   </tr>
   
    <tr>
   <th> Objetivo do Teste </th>
-   <th> Verificar se os dados foram cadastrados e se o login está sendo realizado. </th>
+   <th>
+     <li> 1) Gerar preços de venda</li>
+     <li> 2) Simular preço alterando a margem de lucro. </li>
+     <li> 3) Apresentar as simulaçoes de preço de venda com a margem de lucro </li>
+  </th>
   </tr>
   
    <tr>
   <th> Sequência </th>
    <th> 
-     <li>  1) Entrar á pagína no navegador  </li>
-      <li> 2) Realizar o cadastro </li>
+     <li>  1) Entrar ná pagína geração de preço  </li>
+      <li> 2) Simular varias margens de lucro </li>
       <li> 3) Efetuar o login </li>
   </th>
   </tr>
     <tr>
   <th> Critérios de Êxito</th>
    <th> 
-  <li> Varios cadastros e login efetuados com sucesso</li>
-  <li> Dados foram salvos </li>
-  <li> O direcionadado as páginas correspondentes após login e cadastro</li>
+  <li> Calcúlo de preço de venda apresentado corretamente</li>
+     <li> A apresentação de varias simulaçoes de preço de venda </li>
 </th>
   </tr>
 </table>
