@@ -7,10 +7,8 @@
   </tr>
   
  <tr>
-  <th> Requisitos associados </th>
-  
-    <li> RF-01 Deve apresentar o login e cadastro na página inicial do site </li>
-  </th>
+    <th> Requisitos associados </th>
+    <th> RF-01 Deve apresentar o login e cadastro na página inicial do site </th>
   </tr>
   
    <tr>
