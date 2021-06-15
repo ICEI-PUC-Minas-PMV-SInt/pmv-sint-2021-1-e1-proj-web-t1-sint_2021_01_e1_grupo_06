@@ -19,7 +19,7 @@
    <tr>
   <th> Sequência </th>
    <th> 
-     <li>  1) Acessara pagína com o navegador  </li>
+     <li>  1) Acessara pagina com o navegador  </li>
       <li> 2) Realizar o cadastro </li>
       <li> 3) Efetuar o login </li>
   </th>
