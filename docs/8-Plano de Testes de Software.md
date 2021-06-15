@@ -19,9 +19,9 @@
    <tr>
   <th> Sequência </th>
    <th> 
-     <li>  1) Acessara pagina com o navegador  </li>
-      <li> 2) Realizar o cadastro </li>
-      <li> 3) Efetuar o login </li>
+     <li>   Acessar a pagina com o navegador  </li>
+      <li>  Realizar o cadastro </li>
+      <li>  Efetuar o login </li>
   </th>
   </tr>
     <tr>
@@ -55,8 +55,8 @@
   <tr>
   <th> Sequência </th>
   <th>
-     <li> 1) simular as informações </li>
-     <li> 2) Gravar as informações  </li>
+     <li>  simular as informações </li>
+     <li>  Gravar as informações  </li>
   </th>
   </tr>
    
@@ -82,18 +82,18 @@
    <tr>
   <th> Objetivo do Teste </th>
    <th>
-     <li> 1) Gerar preços de venda</li>
-     <li> 2) Simular preço alterando a margem de lucro. </li>
-     <li> 3) Apresentar as simulaçoes de preço de venda com a margem de lucro </li>
+     <li>  Gerar preços de venda</li>
+     <li>  Simular preço alterando a margem de lucro. </li>
+     <li>  Apresentar as simulaçoes de preço de venda com a margem de lucro </li>
   </th>
   </tr>
   
    <tr>
   <th> Sequência </th>
    <th> 
-     <li>  1) Entrar ná pagína geração de preço  </li>
-      <li> 2) Simular varias margens de lucro </li>
-      <li> 3) Efetuar o login </li>
+     <li>   Entrar na pagína geração de preço  </li>
+      <li>  Simular varias margens de lucro </li>
+      <li>  Efetuar o login </li>
   </th>
   </tr>
     <tr>
