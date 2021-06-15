@@ -35,7 +35,7 @@
   <li> Dados foram salvos </li>
   <li> O direcionadado as páginas correspondentes após login e cadastro</li>
 </th>
-  </tr>
+ 
   
   
 </table>
