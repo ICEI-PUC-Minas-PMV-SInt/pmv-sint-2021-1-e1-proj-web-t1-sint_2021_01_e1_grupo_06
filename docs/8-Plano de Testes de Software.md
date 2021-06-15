@@ -2,8 +2,8 @@
 
 <table>
   <tr>
-    <th> caso teste</th>
-    <th> CT-02 Login e Cadastro    </th>
+    <th> caso teste 1 </th>
+    <th> CT-01 Login e Cadastro    </th>
   </tr>
   
  <tr>
@@ -19,7 +19,7 @@
    <tr>
   <th> Sequência </th>
    <th> 
-     <li>  1) Entrar á pagína no navegador  </li>
+     <li>  1) Acessara pagína com o navegador  </li>
       <li> 2) Realizar o cadastro </li>
       <li> 3) Efetuar o login </li>
   </th>
