@@ -99,7 +99,7 @@
     <tr>
   <th> Critérios de Êxito</th>
    <th> 
-  <li> Calcúlo de preço de venda apresentado corretamente</li>
+  <li> O calcúlo de preço de venda apresentado corretamente</li>
      <li> A apresentação de varias simulaçoes de preço de venda </li>
 </th>
   </tr>
