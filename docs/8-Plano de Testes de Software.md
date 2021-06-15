@@ -29,7 +29,7 @@
 <th>
   <li> Varios cadastros e login efetuados com sucesso</li>
   <li> Dados foram salvos </li>
-  <li> O direcionadado as páginas correspondentes após login e cadastro</li>
+  <li> O direcionamento das páginas correspondentes após login e cadastro</li>
 </th>
   </tr>
   
