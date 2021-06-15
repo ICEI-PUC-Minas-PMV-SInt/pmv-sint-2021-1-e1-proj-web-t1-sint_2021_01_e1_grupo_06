@@ -8,7 +8,7 @@
   
   <tr>
   <th> Requisitos associados </th>
-  <th>
+  <tr>
     <li> RF-01 Deve apresentar o login e cadastro na página inicial do site </li>
   </th>
  
@@ -35,8 +35,7 @@
   <li> Dados foram salvos </li>
   <li> O direcionadado as páginas correspondentes após login e cadastro</li>
 </th>
- 
-  
+  </tr>
   
 </table>
 
@@ -48,7 +47,7 @@
   
   <tr>
   <th> Requisitos associados </th>
-  <th>
+  <tr>
     <li> RF-02 O site deve mostrar todas as informações de entrada</li>
   </th>
  
