@@ -50,17 +50,17 @@
    <th> Gravar as inforçaões </th>
   </tr>
   
-   <tr>
+  <tr>
   <th> Sequência </th>
-   <th>
+  <th>
      <li> 1) simular as informações </li>
      <li> 2) Gravar as informações  </li>
   </th>
   </tr>
    
-    <tr>
+  <tr>
   <th> Critérios de Êxito</th>
-   <th> Todas os dados foram gravados corretamente </th>
+  <th> Todas os dados foram gravados corretamente </th>
   </tr>
 </table>
 
