@@ -37,7 +37,7 @@
 <table>
   <tr>
     <th> caso teste</th>
-    <th> CT-02 entrada de dados </TH>
+    <th> CT-02 entrada de dados </th>
   </tr>
   
   <tr>
