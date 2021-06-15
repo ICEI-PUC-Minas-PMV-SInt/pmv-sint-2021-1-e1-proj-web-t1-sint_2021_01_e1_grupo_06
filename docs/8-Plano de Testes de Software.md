@@ -3,7 +3,7 @@
 <table>
   <tr>
     <th> caso teste</th>
-    <th> CT-02 Login e Cadastro    </TH>
+    <th> CT-02 Login e Cadastro    </th>
   </tr>
   
  <tr>
@@ -26,7 +26,7 @@
   </tr>
     <tr>
   <th> Critérios de Êxito</th>
-   <th> 
+<th>
   <li> Varios cadastros e login efetuados com sucesso</li>
   <li> Dados foram salvos </li>
   <li> O direcionadado as páginas correspondentes após login e cadastro</li>
