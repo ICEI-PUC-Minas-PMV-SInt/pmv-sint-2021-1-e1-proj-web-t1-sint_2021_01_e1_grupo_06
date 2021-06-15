@@ -38,13 +38,13 @@
 
 <table>
   <tr>
-    <th> caso teste</th>
+    <th> caso teste 2</th>
     <th> CT-02 entrada de dados </th>
   </tr>
   
   <tr>
   <th> Requisitos associados </th>
-  <th> RF-02 O site deve mostrar todas as informações de entrada</th>
+  <th> RF-02 A pagina deve mostrar todas as informações de entrada</th>
   </tr>
   
    <tr>
