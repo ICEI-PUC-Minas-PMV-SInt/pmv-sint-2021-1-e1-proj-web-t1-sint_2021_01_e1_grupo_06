@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geração de preço</title>
     <link rel="stylesheet" href="geração.css">
-    <script src="entrada.js"></script>
 </head>
 <body>
-    <nav class="navbar"></nav>
+    <nav class="navbar">
+    </nav>
     <div id="fPreços">
         <form>
             <div class="form">
@@ -26,9 +26,9 @@
         <table id="tbPreços" >
             <thead>
                 <tr>
-                    <th scope="col">Código</th>
-                    <th scope="col">Margem líquida</th>
-                    <th scope="col">Preço de venda</th>
+                    <th class="lista">Código</th>
+                    <th class="lista">Margem líquida (%)</th>
+                    <th class="lista">Preço de venda($)</th>
                 </tr>
             </thead>
         </table>
@@ -36,13 +36,14 @@
     <br><br><br>
     <div class="label-btn">
         <button id="btn1" onclick="calcular()">Calcular</button>
-        <button id="btn2" onclick="apagar()">Apagar tudo</button>
+        <button id="btn2" onclick="entrada()">Voltar</button>
+        <button id="btn3" onclick="inicio()">Início</button>
     </div>
-</body>
-<br>
 <footer>
-    <div class="footer__container">     
-      </section>
-    </div>
+        <div class="footer__container">
+        </section>
+        </div>
 </footer>
+<script src="entrada.js"></script>
+</body>
 </html>
