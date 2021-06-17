@@ -13,18 +13,18 @@
     display: flex;
     position: sticky;
     top: 0;
-  }
+}
   #preço{
     font-weight: bold;
     font-size: 30px;
     height: 40px;
 
-  }
+}
   #fPreços{
     margin-left: 90px;
     margin-top: 40px;
     display: inline-flex;
-  }
+}
 label {
     font-size: 40px;
     font-weight: bold;
@@ -41,11 +41,13 @@ input{
 }
   #main{
     background-color:#C4E0E5 ;
-    outline:solid 1px #000;
+    border:solid 1px #000;
+    border-radius: 20px;
     width: fit-content;
     font-size: 24px;
     display: inline-flex;
     margin-left: 30%;
+    padding: 10px 20px;
   }
 button{
      background-color: #C4E0E5;
@@ -60,25 +62,25 @@ button{
      font-size: 18px;
      border-bottom: 2px solid #323232;
      padding: 10px;
-     margin-left: 245px;
-     margin-top: 60px;
+     margin: 20px 70px  ;
      display: inline-flex;
      outline: none;
      transition: all .4s ease-out;
 }
 #btn1:hover{
-  background-color:#58DEFC ;
-  color: #FFF;
+  background-color: #6FFC58;
 }
 #btn2:hover{
-  background-color:#FF5C46 ;
-  color: #FFF;
+  background-color: #1AD6FF;
+}
+#btn3:hover{
+  background-color: #1AD6FF;
 }
 footer {
   background: #4CA1AF;
   background: -webkit-linear-gradient(to right, #4CA1AF, #C4E0E5);
   background: linear-gradient(to right,#4CA1AF, #C4E0E5 );
-  height: 35px;
+  height: 30px;
   display: flex;
   position: sticky;
   width: 100%;
