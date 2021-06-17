@@ -1,6 +1,53 @@
+//tela inicio //
+function entrada(){
+  window.location.href = "entrada.html"
+}
+function geracao(){
+  window.location.href = "geração.html"
+}
 //tela entrada//
 function gravar() {
-
+  var venda = window.localStorage.getItem("venda");
+  var imposto = document.getElementById("imposto");
+  var despFixas = document.getElementById("despFixas");
+  var despVariaveis = document.getElementById("despVariaveis");
+  var estVenda = document.getElementById("estVenda");
+  var investimento = document.getElementById("investimento");
+  var custo = document.getElementById("kwh");
+   // validação de dados //
+    
+    if (imposto.value == "") {
+        alert("Imposto não informado");
+        imposto.focus();
+        return;
+      }
+    if (despFixas.value == "") {
+      alert("Despesas fixas não informadas");
+      despFixas.focus();
+      return;
+    }
+    if (despVariaveis.value == "") {
+        alert("Despesas variáveis não informada");
+        despVariaveis.focus();
+        return;
+      }
+      if (estVenda.value == "") {
+        alert("Estimativa de venda não informada");
+        estVenda.focus();
+        return;
+      }
+    if (investimento.value == "") {
+      alert("Investimentos não informados");
+      investimento.focus();
+      return;
+    }
+    if (custo.value == "") {
+      alert("Custo Kwh não informado");
+      custo.focus();
+      return;
+    }
+      //salvando dados no localStorage//
+  else {
   var imposto = document.getElementById("imposto").value;
   var despFixas = document.getElementById("despFixas").value;
   var despVariaveis = document.getElementById("despVariaveis").value;
@@ -17,15 +64,23 @@ function gravar() {
   var jm = JSON.stringify(entrada);
   var ls = window.localStorage;
   ls.setItem("entrada", jm);
-
+  //removendo preços e margens de outros valores, se existirem//
+  if(localStorage.venda != []){
+    localStorage.removeItem('venda')
+  }
 
   window.location.href = "geração.html"
+}
+}
+function inicio(){
+  window.location.href = "inicio.html"
 }
 //tela geração//
 function calcular(){
   var margem = document.getElementById("margem").value;
 
     //cálculo//
+    if (margem != ""){
     var jsonEntrada = window.localStorage.getItem("entrada");
     var entrada = JSON.parse(jsonEntrada);
     var calculo = (((Number(entrada.investimento) + Number(entrada.despFixas)) / Number(entrada.estVenda)) + Number(entrada.custo))/
@@ -49,7 +104,7 @@ function calcular(){
           
     //mostrando o preço de venda//
     document.getElementById("preço").innerHTML = calculo
-    //inserindo margem e preço na tabela//
+  //inserindo margem e preço na tabela//
     if(localStorage.venda != []){
     var jsonVenda = window.localStorage.getItem("venda");
     var venda = JSON.parse(jsonVenda);
@@ -65,10 +120,7 @@ function calcular(){
     cellMargem.innerHTML = margem;
     cellCalculo.innerHTML = calculo;
   }
-} 
-//função para apagar dados do localStorage e voltar para tela principal//
-  function apagar(){
-    localStorage.removeItem('entrada')
-    localStorage.removeItem('venda')
-    window.location.href = "entrada.html"
+}else {
+  alert("informe a margem desejada")
   }
+}
