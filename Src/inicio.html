@@ -109,9 +109,9 @@
     }
     
     // tabela preços e margem//
-    function listar(){
-      if(localStorage.venda != []){
-         valores = document.getElementById("tbPreços");
+    // tabela preços e margem//
+    function renderItem(jsonVenda) {
+      valores = document.getElementById("tbPreços");
          var qtdlLinhas = valores.rows.length;
          var linha = valores.insertRow(qtdlLinhas);
          var cellCodigo = linha.insertCell(0);
@@ -119,14 +119,18 @@
          var cellCalculo = linha.insertCell(2);
 
         cellCodigo.innerHTML = qtdlLinhas;
-        cellMargem.innerHTML = venda.margem;
-        cellCalculo.innerHTML = venda.calculo;
-        console.log(venda)
+        cellMargem.innerHTML = jsonVenda.margem;
+        cellCalculo.innerHTML = jsonVenda.calculo;
+    }
+
+    function listar() {
+      if(localStorage.venda != []){
+        const venda = JSON.parse(localStorage.getItem('venda'));
+        venda.forEach(jsonVenda => renderItem(jsonVenda));
          }
-        }
-        venda.forEach(listar)
-        
-      
+    }
+
+    listar();
       
      </script>
      <script src="entrada.js"></script>
