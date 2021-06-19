@@ -1,3 +1,17 @@
+//verificar se usuário está logado//
+var logado = false;
+
+if (localStorage.getItem("acesso") != "true"){
+    alert("Você não está autenticado!");
+    window.location.href = "login.html";
+}
+//tela inicio //
+function entrada(){
+  window.location.href = "entrada.html"
+}
+function geracao(){
+  window.location.href = "geração.html"
+}
 //tela inicio //
 function entrada(){
   window.location.href = "entrada.html"
