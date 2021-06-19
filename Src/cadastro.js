@@ -80,6 +80,7 @@ function salvar() {
     var jm = JSON.stringify(usuario);
     var ls = window.localStorage;
     ls.setItem("usuarios", jm);
+    localStorage.setItem("acesso",true);
      //redirecionamento para tela de impostos//
 setTimeout(()=>{
   window.location.href = 'inicio.html'
@@ -93,6 +94,7 @@ function logar(){
   var usuarios = JSON.parse(jsonUsuarios);
 
   if (email.value == usuarios.email && password.value == usuarios.password){
+      localStorage.setItem("acesso",true);
     window.location.href = "inicio.html";
   }else {
     alert("Usuario não encontrado")
