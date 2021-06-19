@@ -44,6 +44,33 @@
         </section>
         </div>
 </footer>
+    <script>
+     // tabela preços e margem//
+     var jsonVenda = window.localStorage.getItem("venda");
+     var venda = JSON.parse(jsonVenda);
+     
+     function renderItem(jsonVenda) {
+      valores = document.getElementById("tbPreços");
+         var qtdlLinhas = valores.rows.length;
+         var linha = valores.insertRow(qtdlLinhas);
+         var cellCodigo = linha.insertCell(0);
+         var cellMargem = linha.insertCell(1);
+         var cellCalculo = linha.insertCell(2);
+
+        cellCodigo.innerHTML = qtdlLinhas;
+        cellMargem.innerHTML = jsonVenda.margem;
+        cellCalculo.innerHTML = jsonVenda.calculo;
+    }
+
+    function listar() {
+      if(localStorage.venda != []){
+        const venda = JSON.parse(localStorage.getItem('venda'));
+        venda.forEach(jsonVenda => renderItem(jsonVenda));
+         }
+    }
+
+    listar();
+</script>
 <script src="entrada.js"></script>
 </body>
 </html>
