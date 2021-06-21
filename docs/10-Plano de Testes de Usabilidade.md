@@ -2,7 +2,15 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Planejamento de realização de testes com usuários definindo as operações que os usuários devem realizar.
+Público alvo: 
+ - Gerentes de eletroposto 
 
-> **Links Úteis**:
-> - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+Estratégia de seleção de participantes: 
+- Como o público alvo é dentro de um grupo muito específico, não foi possível ter um participante que se encaixa dentro do grupo, no quesito profissão, então os participantes foram selecionados o mais próximo possível, entrando em consideração a idade média do público, experiência profissional, etc. 
+
+Lista dos participantes 
+- Wellington Camargo –> 47 anos, tem experiência com uso de SAP (sistema de Gestão Empresarial);
+
+Roteiro de testes:
+-Navegação geral; 
+-Desafio.
