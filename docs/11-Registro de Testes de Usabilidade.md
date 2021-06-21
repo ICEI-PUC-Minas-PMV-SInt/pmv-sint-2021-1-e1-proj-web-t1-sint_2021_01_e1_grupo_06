@@ -3,6 +3,18 @@
 <span style="color:red">Pré-requisitos: <a href="7-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></span>, <a href="10-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a>
 
 Relatório com evidências dos testes e relatos dos usuários participantes, baseado em um plano de testes pré-definido.
+<table>
+ <tr>
+  <th>Nome</th>
+  <th>Navegação geral</th>
+  <th>Desafio</th>
+ </tr>
+ <tr>
+  <td>Wellington Camargo</td>
+  <td>Conseguiu fazer login normalmente porém na hora de cadastrar os valores teve dificuldade em achar os botões no final da tela inicial</td>
+  <td>Conseguiu calcular os dados corretamente porém quando foi solicitado a testar outra margem líquida, não foi clara a opção de apenas digitar outra e o participante clicou no botão de voltar, o que fez com que ele tivesse que digitar todos os dados novamente</td>
+ </tr>
+  </table>
 
 > **Links Úteis**:
 > - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
