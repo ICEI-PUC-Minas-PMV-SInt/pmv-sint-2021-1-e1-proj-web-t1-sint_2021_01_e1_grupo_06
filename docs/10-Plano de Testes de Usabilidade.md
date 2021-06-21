@@ -12,5 +12,7 @@ Lista dos participantes
 - Wellington Camargo –> 47 anos, tem experiência com uso de SAP (sistema de Gestão Empresarial);
 
 Roteiro de testes:
--Navegação geral; 
--Desafio.
+- Navegação geral; 
+- Desafio.
+
+
