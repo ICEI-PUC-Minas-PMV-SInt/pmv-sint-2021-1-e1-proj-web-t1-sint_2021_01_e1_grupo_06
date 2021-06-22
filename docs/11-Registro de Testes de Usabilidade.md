@@ -20,7 +20,7 @@ Relatório com evidências dos testes e relatos dos usuários participantes, bas
   <th>Nome</th>
   <th>Navegação geral</th>
   <th>Desafios</th>
-  <th> erros no site/>
+  <th> erros no site<th/>
  </tr>
  <tr>
   <td>Lilia Santos</td>
