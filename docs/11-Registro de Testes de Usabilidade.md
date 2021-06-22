@@ -24,9 +24,9 @@ Relatório com evidências dos testes e relatos dos usuários participantes, bas
  </tr>
  <tr>
   <td>Lilia Santos</td>
-  <td>Conseguiu realizar e o login </td>
-  <td>Conseguiu inserir todos os dados e conseguiu identificar o preço gerado</td>
-  <td> Apos o calcúlo, apareceu um valor de venda negativo, assim caracterizando um erro</td>
+  <td>Conseguiu realizar  o cadastro e o login.                     </td>
+  <td>Conseguiu inserir todos os dados e conseguiu identificar o preço gerado.td>
+  <td> Apos o calcúlo, apareceu um valor de venda negativo, assim caracterizando um erro.</td>
   </tr>
   </table>
 
