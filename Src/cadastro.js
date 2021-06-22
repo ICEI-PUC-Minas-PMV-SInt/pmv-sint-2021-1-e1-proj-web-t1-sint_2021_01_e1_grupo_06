@@ -101,6 +101,9 @@ function logar(){
   }
 
 }
+function cadastro(){
+  window.location.href = "cadastro.html";
+}
 //tela esqueceu a senha?//
 function mostrarSenha(){
   var password = document.getElementById("mostrarSenha");
@@ -117,4 +120,7 @@ function mostrarSenha(){
   }else {
     alert("Dados não encontrados");
   }
+}
+function voltar(){
+  window.location.href = "login.html";
 }
