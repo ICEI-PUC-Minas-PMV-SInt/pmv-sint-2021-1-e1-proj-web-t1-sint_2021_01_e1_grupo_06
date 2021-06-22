@@ -166,6 +166,7 @@
   display: inline-flex;
   align-items: center;
   margin-left: 100px;
+  pointer-events: none;
 }
 /**/
 #btn1 , #btn2{
