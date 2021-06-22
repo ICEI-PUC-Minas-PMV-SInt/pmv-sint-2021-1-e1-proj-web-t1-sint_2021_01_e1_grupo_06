@@ -10,7 +10,7 @@ Estratégia de seleção de participantes:
 
 Lista dos participantes 
 - Wellington Camargo –> 47 anos, tem experiência com uso de SAP (sistema de Gestão Empresarial);
-
+- Lilia Santos -> 36 anos empresaria no ramo da moda.
 Roteiro de testes:
 - Navegação geral; 
 - Desafio.
