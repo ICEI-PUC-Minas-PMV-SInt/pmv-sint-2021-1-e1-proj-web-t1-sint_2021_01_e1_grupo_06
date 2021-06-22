@@ -8,22 +8,14 @@ Relatório com evidências dos testes e relatos dos usuários participantes, bas
   <th>Nome</th>
   <th>Navegação geral</th>
   <th>Desafio</th>
+  <th>Erro</tr>
  </tr>
  <tr>
   <td>Wellington Camargo</td>
   <td>Conseguiu fazer login normalmente porém na hora de cadastrar os valores teve dificuldade em achar os botões no final da tela inicial</td>
   <td>Conseguiu calcular os dados corretamente porém quando foi solicitado a testar outra margem líquida, não foi clara a opção de apenas digitar outra e o participante clicou no botão de voltar, o que fez com que ele tivesse que digitar todos os dados novamente</td>
+ <td>Não houve erros</td>
  </tr>
-  </table>
-  
-  <table>
- <tr>
-  <th>Nome</th>
-  <th>Navegação geral</th>
-  <th>Desafios</th>
-  <th> Erros no site<th/>
- </tr>
- 
  <tr>
   <td>Lilia Santos</td>
   <td>Conseguiu realizar  o cadastro e o login.</td>
