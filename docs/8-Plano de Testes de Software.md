@@ -27,7 +27,7 @@
     <tr>
   <th> Critérios de Êxito</th>
 <th>
-  <li> Varios cadastros e login efetuados com sucesso</li>
+  <li> Cadastro e login efetuados com sucesso</li>
   <li> Dados foram salvos </li>
   <li> O direcionamento das páginas correspondentes após login e cadastro</li>
 </th>
