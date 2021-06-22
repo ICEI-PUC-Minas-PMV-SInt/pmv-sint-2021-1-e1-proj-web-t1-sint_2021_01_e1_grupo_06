@@ -11,5 +11,8 @@ Caso teste 4
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
+
+No caso teste 4 está sendo mostrado os dados cadastrados, definidos no plano de teste, e o preço resultante, que corresponde com  o esperado. Assim verificamos que o cálculo do preço de venda do kwh está sendo executado corretamente. 
+
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
