@@ -104,6 +104,44 @@
   </tr>
 </table>
 
+
+
+<table>
+  <tr>
+    <th> caso teste 4</th>
+    <th> CT-04 Geração de preço   </TH>
+  </tr>
+  
+ <tr>
+    <th> Requisitos associados </th>
+    <th> RF-005 Gerar preços do kwh 
+</th>
+  </tr>
+   <tr>
+  <th> Objetivo do Teste </th>
+   <th>
+     <li>  Gerar preços de venda</li>
+  </th>
+  </tr>
+   <tr>
+  <th> Sequência </th>
+   <th> 
+     <li>  Impostos	-> 6 </li>
+     <li>  Despesas fixas	-> 10000 </li>
+     <li>Despesas variáveis ->	15 </li>
+     <li>Estimativa de vendas (kwh) ->	5160 </li>
+     <li>Investimento (mensal) ->	2500 </li>
+     <li>Custo do kwh	-> 1 </li>
+     <li>Margem líquida	-> 20 </li>
+  </th>
+  </tr>
+    <tr>
+  <th> Critérios de Êxito</th>
+   <th> 
+  <li> Preço de venda (kwh) ->	5,80081461</li>
+</th>
+  </tr>
+</table>
  
 Comente sobre as ferramentas de testes utilizadas.
  
