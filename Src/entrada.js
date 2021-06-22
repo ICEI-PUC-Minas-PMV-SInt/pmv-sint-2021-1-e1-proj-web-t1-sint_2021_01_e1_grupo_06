@@ -99,6 +99,10 @@ function calcular(){
     var entrada = JSON.parse(jsonEntrada);
     var calculo = (((Number(entrada.investimento) + Number(entrada.despFixas)) / Number(entrada.estVenda)) + Number(entrada.custo))/
     ( 1 - ((Number(entrada.imposto) + Number(entrada.despVariaveis) + Number(parseFloat(margem)))) / 100)
+    
+if (calculo < 0){
+  alert("valor negativo")
+}else{
     //salvando no localStorage//
     var vd = {margem, calculo };
     if (localStorage.getItem('venda') === null) {
@@ -118,6 +122,7 @@ function calcular(){
           
     //mostrando o preço de venda//
     document.getElementById("preço").innerHTML = calculo
+  
   //inserindo margem e preço na tabela//
     if(localStorage.venda != []){
     var jsonVenda = window.localStorage.getItem("venda");
@@ -134,7 +139,8 @@ function calcular(){
     cellMargem.innerHTML = margem;
     cellCalculo.innerHTML = calculo;
   }
-}else {
-  alert("informe a margem desejada")
-  }
+}
+}else{
+  alert("Digite a margem desejada")
+}
 }
