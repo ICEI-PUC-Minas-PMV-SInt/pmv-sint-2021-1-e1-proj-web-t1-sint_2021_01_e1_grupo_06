@@ -101,7 +101,7 @@ function calcular(){
     ( 1 - ((Number(entrada.imposto) + Number(entrada.despVariaveis) + Number(parseFloat(margem)))) / 100)
     
 if (calculo < 0){
-  alert("valor negativo")
+  alert("Preço negativo")
 }else{
     //salvando no localStorage//
     var vd = {margem, calculo };
