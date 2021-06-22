@@ -58,8 +58,8 @@ function salvar() {
         passconfirmation.focus();
         return;
       } 
-    //salvando dados no localStorage//
-    else alert("Processando") 
+      else{
+        //salvando dados no localStorage//
     var nome = document.getElementById("nome").value;
     var email= document.getElementById("email").value;
     var cpf= document.getElementById("cpf").value;
@@ -85,6 +85,7 @@ function salvar() {
 setTimeout(()=>{
   window.location.href = 'inicio.html'
 }, 1000) 
+}
 }
 //tela login//
 function logar(){
