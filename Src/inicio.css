@@ -40,10 +40,14 @@
     margin-left: 200px;
   }
   
-  .navbar__btn a {
+   #deslogar {
     position: relative;
+    font-size: 24px;
     z-index: 2;
     color: #fff;
+    background-color: transparent;
+    outline: none;
+    border: none;
     text-decoration: none;
   }
   
@@ -164,7 +168,7 @@
   margin-left: 100px;
 }
 /**/
-button{
+#btn1 , #btn2{
   background-color: #C4E0E5;
   color:#000;
   justify-content: center;
@@ -183,7 +187,7 @@ button{
   outline: none;
   transition: all .4s ease-out;
 }
-button:hover{
+#btn1:hover , #btn2:hover{
 background-color: #1AD6FF;
 }
 #btn2{
