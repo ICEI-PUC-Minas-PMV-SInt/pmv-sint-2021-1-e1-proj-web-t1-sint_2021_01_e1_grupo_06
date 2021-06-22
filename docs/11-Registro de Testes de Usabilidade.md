@@ -15,6 +15,20 @@ Relatório com evidências dos testes e relatos dos usuários participantes, bas
   <td>Conseguiu calcular os dados corretamente porém quando foi solicitado a testar outra margem líquida, não foi clara a opção de apenas digitar outra e o participante clicou no botão de voltar, o que fez com que ele tivesse que digitar todos os dados novamente</td>
  </tr>
   </table>
+  <table>
+ <tr>
+  <th>Nome</th>
+  <th>Navegação geral</th>
+  <th>Desafios</th>
+  <th> erros no site/>
+ </tr>
+ <tr>
+  <td>Lilia Santos</td>
+  <td>Conseguiu realizar e o login </td>
+  <td>Conseguiu inserir todos os dados e conseguiu identificar o preço gerado</td>
+  <td> Apos o calcúlo, apareceu um valor de venda negativo, assim caracterizando um erro</td>
+  </tr>
+  </table>
 
 > **Links Úteis**:
 > - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
