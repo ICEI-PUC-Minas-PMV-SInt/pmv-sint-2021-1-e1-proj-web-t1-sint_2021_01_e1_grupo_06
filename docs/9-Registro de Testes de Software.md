@@ -2,7 +2,10 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+
+Caso teste 4
+![Geração de preço - Pessoal — Microsoft​ Edge 22_06_2021 17_21_01](https://user-images.githubusercontent.com/81269914/122993988-54fae180-d37e-11eb-947b-1d0c9acbfee8.png)
+
 
 ## Avaliação
 
