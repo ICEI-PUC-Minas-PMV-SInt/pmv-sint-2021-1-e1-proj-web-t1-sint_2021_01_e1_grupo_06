@@ -23,8 +23,9 @@ Relatório com evidências dos testes e relatos dos usuários participantes, bas
   <td> Após o calcúlo, apareceu um valor de venda negativo, assim caracterizando um erro.</td>
  </tr>
   </table>
+  [![Texto alternativo](https://img.youtube.com/vi/rdcuOytxjKY/0.jpg)](https://www.youtube.com/watch?v=rdcuOytxjKY "Texto...")
 
-[![Texto alternativo](https://img.youtube.com/vi/rdcuOytxjKY/0.jpg)](https://www.youtube.com/watch?v=rdcuOytxjKY "Texto...")
+[![Texto alternativo](https://img.youtube.com/vi/XS1QFVN3Nxk/0.jpg)](https://www.youtube.com/watch?v=XS1QFVN3Nxk "Texto...")
 
 > **Links Úteis**:
 > - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
