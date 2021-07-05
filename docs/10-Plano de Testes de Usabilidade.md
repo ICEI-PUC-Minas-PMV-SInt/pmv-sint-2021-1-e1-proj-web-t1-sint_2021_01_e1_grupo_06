@@ -15,6 +15,6 @@ Lista dos participantes
 
 Roteiro de testes:
 - Navegação geral; 
-- Desafio.
+- Desafio -> os participantes foram solicitados a dar entrada nos dados e fazer o cálculo do preço de venda.  
 
 
