@@ -1,7 +1,7 @@
 
 # Projeto de Interface
  
- As interfaces da plataforma foram projetadas visando o público alvo do projeto, que constitue de adultos com idade 30+ e com pouco uso de redes sociais (a maioria se limita a facebook e linkedin). Por isso as telas foram projetadas para fácil uso, elaboradas para serem intuitivas e práticas, com cores e ícones familiares a este público citado anteriormente.
+ As interfaces da plataforma foram projetadas visando o público alvo do projeto, que constitue de adultos com idade 30+ e com pouco uso de redes sociais (a maioria se limita a facebook e linkedin). Por isso as telas foram projetadas para fácil uso, elaboradas para serem intuitivas e práticas, com cores e ícones familiares ao público citado anteriormente.
 
 ## User Flow
 
