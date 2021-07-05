@@ -1,11 +1,7 @@
 
 # Projeto de Interface
-
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+ 
+ As interfaces da plataforma foram projetadas visando o público alvo do projeto, que constitue de adultos com idade 30+ e com pouco uso de redes sociais (a maioria se limita a facebook e linkedin). Por isso as telas foram projetadas para fácil uso, elaboradas para serem intuitivas e práticas, com cores e ícones familiares a este público citado anteriormente.
 
 ## User Flow
 
