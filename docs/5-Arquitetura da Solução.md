@@ -1,6 +1,6 @@
 # Arquitetura da Solução
 
-A nossa aplicação web será estruturada em HTML, CSS e Java script, onde proporcionará ótimo atendimento as demandas de nossos clientes.
+A nossa aplicação Web será estruturada em HTML, CSS e JavaScript, onde buscamos atender as demandas de nosso público.
 
 ## Diagrama de componentes
 
