@@ -1,8 +1,10 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
-
-Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
+![image](https://user-images.githubusercontent.com/81269914/124510719-d5700800-ddaa-11eb-989e-40d36a616477.png)
+![image](https://user-images.githubusercontent.com/81269914/124510752-e4ef5100-ddaa-11eb-9a09-4835dec01ba4.png)
+![image](https://user-images.githubusercontent.com/81269914/124510772-f0db1300-ddaa-11eb-8eb9-29db93868153.png)
+![image](https://user-images.githubusercontent.com/81269914/124510785-f8022100-ddaa-11eb-8fe5-1e94e4d3560c.png)
+![image](https://user-images.githubusercontent.com/81269914/124510850-19fba380-ddab-11eb-975a-79df4f984104.png)
 
 ## Título do Projeto
 
