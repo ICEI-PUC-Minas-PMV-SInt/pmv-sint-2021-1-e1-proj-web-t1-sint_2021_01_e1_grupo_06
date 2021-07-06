@@ -12,12 +12,8 @@ function entrada(){
 function geracao(){
   window.location.href = "geração.html"
 }
-//tela inicio //
-function entrada(){
-  window.location.href = "entrada.html"
-}
-function geracao(){
-  window.location.href = "geração.html"
+function deslogar(){
+  window.location.href = "index.html"
 }
 //tela entrada//
 function gravar() {
